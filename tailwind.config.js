@@ -4,7 +4,13 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {colors:{
+      'regal-blue': '#1D8BCC'
+    },
+    backgroundImage:{
+      'lpBackground': "url('./LandingPage/lpBackground.svg')",
+    }
+    },
   },
   plugins: [],
 }
