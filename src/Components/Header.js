@@ -4,20 +4,20 @@ import Logo from "../Assets/Logo"
 const Header = () => {
     return (
         <div className="relative bg-white">
-          <div className="max-w-6xl mx-auto pl-2 sm:px-6">
-            <div className="flex justify-between items-center pt-4 pb-2 md:justify-start md:space-x-10">
-              <div className="flex justify-start lg:w-0 lg:flex-1">
+          <div className="max-w-8/10 mx-auto pl-2 sm:px-6">
+            <div className="flex justify-between items-center pt-4 pb-2">
+              <div className="flex justify-start w-1/2">
                 <a href="#">
                   <Logo />
                 </a>
               </div>
-              <nav className="hidden md:flex space-x-10">
-                <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900"> About us </a>
-                <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900"> What we do </a>
-                <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900"> Projects </a>
-              </nav>
-              <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-                <a href="#" className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-5 py-4 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-newport-blue"> Book a Consultation </a>
+              <div className="flex justify-between w-1/2 items-center">
+                <nav className="hidden md:flex space-x-8 text-grayish-blue">
+                  <a href="#" className="text-base font-medium hover:text-gray-900 font-normal"> About us </a>
+                  <a href="#" className="text-base font-medium hover:text-gray-900 font-normal"> What we do </a>
+                  <a href="#" className="text-base font-medium hover:text-gray-900 font-normal"> Projects </a>
+                </nav>
+                <button class="rounded-md bg-newport-blue text-white font-extrabold px-5 py-4">Book a Consultation</button>
               </div>
             </div>
           </div>        

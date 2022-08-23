@@ -4,12 +4,17 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {colors:{
-      'newport-blue': '#1D8BCC'
+    maxWidth: {
+      '8/10':'80%'
     },
-    backgroundImage:{
-      'lpBackground': "url('./LandingPage/lpBackground.svg')",
-    }
+    extend: {
+      colors:{
+        'newport-blue': '#1D8BCC',
+        'grayish-blue':'#353F50'
+      },
+      backgroundImage:{
+        'lpBackground': "url('./LandingPage/lpBackground.svg')",
+      }
     },
   },
   plugins: [],
