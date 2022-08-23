@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import ProductDevelopment from './ProductDevelopment/ProductDevelopment';
 
 function App() {
   return (
     <div className="text-left text-sky-600">
-      <div>This is a new project</div>
+      <ProductDevelopment />
     </div>
   );
 }
