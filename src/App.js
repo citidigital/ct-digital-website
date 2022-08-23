@@ -1,10 +1,10 @@
 import './App.css';
-import SocialMediaPage from './SocialMediaManagement/SocialMediaPage'
+import ProductDevelopment from './ProductDevelopment/ProductDevelopment';
 
 function App() {
   return (
     <div className="text-left text-sky-600">
-      <SocialMediaPage />
+      <ProductDevelopment />
     </div>
   );
 }

@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     extend: {colors:{
-      'regal-blue': '#1D8BCC'
+      'newport-blue': '#1D8BCC'
     },
     backgroundImage:{
       'lpBackground': "url('./LandingPage/lpBackground.svg')",

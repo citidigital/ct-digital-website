@@ -32,7 +32,7 @@ const SocialMediaPage = () => {
             <Header />
 
             <div>
-                <img src={RectangleSM} alt="rectangle"/>
+                <img src={RectangleSM} alt="Social Media"/>
             </div>
             
             <RightHandImage 
