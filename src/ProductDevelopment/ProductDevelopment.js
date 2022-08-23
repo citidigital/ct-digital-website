@@ -10,21 +10,22 @@ import WebManagement from '../Assets/imagesPM/WebManagement.jpg'
 
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
+import PageSection from "../Components/PageSection";
 
 const firstImageSection = {
-    rhiHeader: 'Web Development',
-    rhiParagraph: 'Build bespoke websites that are created with simplicity and originality from the scratch. Our hard works are dedicated to the style that your users will appreciate.',
-    rhiImage: <img src={WebDevelopment} alt="Web Development"/>,
+    header: 'Web Development',
+    paragraph: 'Build bespoke websites that are created with simplicity and originality from the scratch. Our hard works are dedicated to the style that your users will appreciate.',
+    ImageComponent: <img src={WebDevelopment} alt="Web Development"/>,
 }
 const secondImageSection = {
-    lhiHeader: 'App Development',
-    lhiParagraph: 'Web development plus ease and assessibility equals comfort. Create easy-to-use app with a visually appealing design and interactive elements. Create features in line the product requirement and get a free consultation on next steps ',
-    lhiImage: <img src={AppDevelopment} alt="App Development"/>,
+    header: 'App Development',
+    paragraph: 'Web development plus ease and assessibility equals comfort. Create easy-to-use app with a visually appealing design and interactive elements. Create features in line the product requirement and get a free consultation on next steps ',
+    ImageComponent: <img src={AppDevelopment} alt="App Development"/>,
 }
 const thirdImageSection = {
-    rhiHeader: 'Website Managment',
-    rhiParagraph: 'Periodic reviews and general up-to-date maintenance are required to provide a professional website with a content distribution strategy and marketing strategy. CT digital offers that and more.',
-    rhiImage: <img src={WebManagement} alt="Web Management"/>
+    header: 'Website Managment',
+    paragraph: 'Periodic reviews and general up-to-date maintenance are required to provide a professional website with a content distribution strategy and marketing strategy. CT digital offers that and more.',
+    ImageComponent: <img src={WebManagement} alt="Web Management"/>
 }
 
 const ProductDevelopment = () => {
@@ -33,25 +34,27 @@ const ProductDevelopment = () => {
             <Header />
 
             <div>
-                <img src={RectanglePD} alt="Product Development"/>
+                <img src={RectanglePD} alt="Product Development" className="w-full"/>
             </div>
             
-            <RightHandImage 
-                rhiHeader = {firstImageSection.rhiHeader}
-                rhiParagraph = {firstImageSection.rhiParagraph}
-                rhiImage = {firstImageSection.rhiImage}
-                />
+            <PageSection
+                position="right"
+                Header = {firstImageSection.header}
+                Paragraph = {firstImageSection.paragraph}
+                Image = {firstImageSection.ImageComponent}
+            />
 
-            <LeftHandImage 
-                lhiHeader = {secondImageSection.lhiHeader}
-                lhiParagraph = {secondImageSection.lhiParagraph}
-                lhiImage = {secondImageSection.lhiImage}
-                />
+            <PageSection
+                Header = {secondImageSection.header}
+                Paragraph = {secondImageSection.paragraph}
+                Image = {secondImageSection.ImageComponent}
+            />
 
-            <RightHandImage 
-                rhiHeader = {thirdImageSection.rhiHeader}
-                rhiParagraph = {thirdImageSection.rhiParagraph}
-                rhiImage = {thirdImageSection.rhiImage}
+            <PageSection
+                position="right"
+                Header = {thirdImageSection.header}
+                Paragraph = {thirdImageSection.paragraph}
+                Image = {thirdImageSection.ImageComponent}
                 />
 
             <Footer />
