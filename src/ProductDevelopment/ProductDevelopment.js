@@ -1,8 +1,5 @@
 import React from "react";
 
-import RightHandImage from '../Components/FeaturePageElements/RightHandImage';
-import LeftHandImage from '../Components/FeaturePageElements/LeftHandImage';
-
 import RectanglePD from '../Assets/imagesPM/RectanglePD.jpg'
 import WebDevelopment from '../Assets/imagesPM/WebDevelopment.jpg'
 import AppDevelopment from '../Assets/imagesPM/AppDevelopment.jpg'
