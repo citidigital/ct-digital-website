@@ -14,11 +14,13 @@ const firstImageSection = {
     paragraph: 'Build bespoke websites that are created with simplicity and originality from the scratch. Our hard works are dedicated to the style that your users will appreciate.',
     ImageComponent: <img src={WebDevelopment} alt="Web Development"/>,
 }
+
 const secondImageSection = {
     header: 'App Development',
     paragraph: 'Web development plus ease and assessibility equals comfort. Create easy-to-use app with a visually appealing design and interactive elements. Create features in line the product requirement and get a free consultation on next steps ',
     ImageComponent: <img src={AppDevelopment} alt="App Development"/>,
 }
+
 const thirdImageSection = {
     header: 'Website Managment',
     paragraph: 'Periodic reviews and general up-to-date maintenance are required to provide a professional website with a content distribution strategy and marketing strategy. CT digital offers that and more.',

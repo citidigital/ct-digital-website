@@ -5,15 +5,21 @@ module.exports = {
   ],
   theme: {
     maxWidth: {
+      '3/10':'30%',
+      '7/10':'70%',      
       '8/10':'80%',
-      '9/10':'90%'
+      '9/10':'90%',
     },
     extend: {
       colors:{
         'newport-blue': '#1D8BCC',
         'grayish-blue':'#353F50',
         'default-gray': '#374151',
-        'primary-blue': '#072F40'
+        'primary-blue': '#072F40',
+        'verylight-blue':'#F7FBFC'
+      },
+      lineHeight:{
+        'leading-14':'3.5rem',
       },
       backgroundImage:{
         'lpBackground': "url('./LandingPage/lpBackground.svg')",

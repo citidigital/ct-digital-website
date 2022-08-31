@@ -28,10 +28,24 @@ const thirdImageSection = {
 const BrandDesign = () => {
     return (
         <div className="BrandDesign">
+
             <Header />
 
             <div>
-                <img src={RectangleBD} alt="Brand Design"/>
+                <img className="w-full" src={RectangleBD} alt="Brand Design"/>
+            </div>
+
+            <div className="flex-col max-w-2/3 mx-auto">
+                    
+                    <h2 className="w-2/5 mt-20 mb-14 leading-14 mx-auto text-center text-5xl font-semibold">Brand Design</h2>
+                    
+                    <p className='mb-14 text-center px-60'>Building a brand identity requires designs and, that is where our creativity comes to play in developing what makes you instantly recognizable by your customers. To attain great layouts, we first set up the design structure and create your business assets. Typography, colour, and form or shape are the essential elements of consideration for our design process (method). Your business value comes from the application of these concepts.</p>                 
+                    
+                    <div className="w-2/3 mx-auto mb-14 text-center">
+                            <button className="rounded-md bg-newport-blue text-white font-extrabold px-5 py-4" >View Projects</button>     
+                    </div>
+
+                    <h2 className="w-2/5 mt-24 mb-5 leading-14 mx-auto text-center text-5xl font-semibold">Our Section</h2>
             </div>
             
             <PageSection
