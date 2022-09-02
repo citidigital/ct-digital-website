@@ -28,7 +28,7 @@ const LandingPage = () => {
     return(
         <div className="landingPage">
             <Header />
-            <div className="bg-lpBackground px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            <div className="bg-lpBackground bg-no-repeat px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                 <div className="absolute">
                     <Ellipse36 />
                 </div>
@@ -62,11 +62,17 @@ const LandingPage = () => {
 
                 </div>
             </div>
-            <div className="flex gap-4">
-                <UiUx/>
-                <BD/>
-                <WebProgramming/>
-                <SmManagement/>
+            <div className="px-36">
+                <div className="">
+                    <h2 className="text-3.5xl font-black w-fit mx-auto">Building the Greatest Solutions</h2>
+                    <p className="w-fit mx-auto">Results matter a lot, this in each step of the product lifecycle our team of experts are fully active to help you launch your product, brand and ideas with a bang. </p>
+                </div>
+                <div className="calloutElements flex gap-4">
+                    <UiUx/>
+                    <BD/>
+                    <WebProgramming/>
+                    <SmManagement/>
+                </div>
             </div>
             <div className="flex">
                 <div>
