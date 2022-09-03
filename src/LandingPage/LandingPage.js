@@ -62,10 +62,10 @@ const LandingPage = () => {
 
                 </div>
             </div>
-            <div className="px-36">
+            <div className="px-36 pt-22">
                 <div className="">
-                    <h2 className="text-3.5xl font-black w-fit mx-auto">Building the Greatest Solutions</h2>
-                    <p className="w-fit mx-auto">Results matter a lot, this in each step of the product lifecycle our team of experts are fully active to help you launch your product, brand and ideas with a bang. </p>
+                    <h2 className="text-3.5xl font-black w-fit mx-auto mb-6">Building the Greatest Solutions</h2>
+                    <p className="w-2/3 text-center mx-auto mb-9">Results matter a lot, this in each step of the product lifecycle our team of experts are fully active to help you launch your product, brand and ideas with a bang. </p>
                 </div>
                 <div className="calloutElements flex gap-4">
                     <UiUx/>
@@ -74,15 +74,15 @@ const LandingPage = () => {
                     <SmManagement/>
                 </div>
             </div>
-            <div className="flex">
-                <div>
-                    <img src={InnovativeImageOne} alt="InnovativeImage" />
-                    <img src={InnovativeImageTwo} alt="InnovativeImage" />
-                    <img src={InnovativeImageThree} alt="InnovativeImage" />
+            <div className="flex p-36 justify-between">
+                <div className="relative w-579px h-465px pl-13">
+                    <img src={InnovativeImageOne} alt="InnovativeImage" className="absolute z-10"/>
+                    <img src={InnovativeImageTwo} alt="InnovativeImage" className="absolute z-20 top-196px left-352px"/>
+                    <img src={InnovativeImageThree} alt="InnovativeImage" className="absolute z-30 top-2/3"/>
                 </div>
-                <div>
-                    <h2>Innovative Products for your users</h2>
-                    <p>We provide our clients with unique user-centric products. By improving the product experience, we help generate leads and increase customer engagement and retention.</p>
+                <div className="w-96 mt-20">
+                    <h2 className="text-3.5xl font-black w-fit">Innovative Products for your users</h2>
+                    <p className="text-base font-normal mt-4 leading-7">We provide our clients with unique user-centric products. By improving the product experience, we help generate leads and increase customer engagement and retention.</p>
                     <BookConsult />
                 </div>
             </div>

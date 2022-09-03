@@ -6,7 +6,7 @@ const Header = () => {
   const [showMenuTray, setShowMenuTray] = useState(false);
 
   return (
-    <div className="sticky top-0 bg-white">
+    <div className="sticky top-0 bg-white z-40">
 
       <div className="max-w-9/10 md:w-full lg:max-w-8/10 mx-auto pl-2 sm:px-6">
         <div className="flex justify-between items-center pt-4 pb-2">

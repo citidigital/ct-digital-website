@@ -11,6 +11,17 @@ module.exports = {
       '9/10':'90%',
     },
     extend: {
+      inset:{
+        '196px':'196px',
+        '352px':'352px'
+      },
+      width:{
+        '507px':'507px',
+        '579px':'579px'
+      },
+      height:{
+        '465px':'465px'
+      },
       colors:{
         'newport-blue': '#1D8BCC',
         'grayish-blue':'#353F50',
@@ -20,6 +31,10 @@ module.exports = {
       },
       lineHeight:{
         'leading-14':'3.5rem',
+      },
+      padding:{
+        '13':'52px',
+        '22':'88px'
       },
       backgroundImage:{
         'lpBackground': "url('./LandingPage/lpBackground.svg')",
