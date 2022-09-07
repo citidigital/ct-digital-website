@@ -6,10 +6,11 @@ const Header = () => {
   const [showMenuTray, setShowMenuTray] = useState(false);
 
   return (
-    <div className="relative bg-white">
-      <div className="max-w-9/10 md:max-w-8/10 mx-auto pl-2 sm:px-6">
+    <div className="sticky top-0 bg-white z-40">
+
+      <div className="max-w-9/10 md:w-full lg:max-w-8/10 mx-auto pl-2 sm:px-6">
         <div className="flex justify-between items-center pt-4 pb-2">
-          <div className="hidden md:flex justify-start w-1/2">
+          <div className="hidden md:flex justify-start md:w-3/10 lg:w-1/2">
             <a href="#">
               <Logo />
             </a>
@@ -17,14 +18,13 @@ const Header = () => {
           <div className="flex md:hidden justify-start items-center">
             <div className="mr-5">
               <BreadCrumb />
-            </div>
-            
+            </div>            
             <a href="#">
               <Logo width={116} height={24.86}/>
             </a>
           </div>
-          <div className="hidden md:flex justify-between w-1/2 items-center">
-            <nav className="space-x-8 text-grayish-blue">
+          <div className="hidden md:flex justify-between md:w-7/10 lg:w-1/2 items-center">
+            <nav className="space-x-8 text-grayish-blue mx-4">
               <a href="#" className="text-base font-medium hover:text-gray-900 font-normal"> About us </a>
               <a href="#" className="text-base font-medium hover:text-gray-900 font-normal"> What we do </a>
               <a href="#" className="text-base font-medium hover:text-gray-900 font-normal"> Projects </a>
@@ -32,7 +32,8 @@ const Header = () => {
             <button class="rounded-md bg-newport-blue text-white font-extrabold px-5 py-4">Book a Consultation</button>
           </div>
         </div>
-      </div>        
+      </div>   
+
       <div className="hidden absolute top-0 transition transform origin-top-right md:hidden">
         <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
           <div className="pt-5 pb-6 px-5">
@@ -110,7 +111,9 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>        
+    </div>
+    
+    
   );
 } 
 

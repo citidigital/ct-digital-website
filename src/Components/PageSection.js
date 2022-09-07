@@ -15,9 +15,6 @@ const PageSection = ({position="left", Header, Paragraph, Image}) => {
                         </div>
                     </div>
                     {position === "right" && Image}
-                    {/* {position === "right" && <div className="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
-                        {Image}    
-                    </div>} */}
                 </div>
             </div>
         </div>
