@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 import {ReactComponent as LPImage} from './lpImage.svg';
 import BookConsult from "../Components/BookConsult";
 
@@ -86,13 +87,13 @@ const LandingPage = () => {
                     <BookConsult />
                 </div>
             </div>
-            <div className="flex">
-                <div>
-                    <h2>Creating powerful products for Businesses</h2>
-                    <p>We value continuity and growth, thus we are dedicated to building a successful brand,  delivering seamless products and building a  strong product portfolios for businesses.</p>
+            <div className="flex  p-36 justify-between">
+                <div className="w-96">
+                    <h2 className="text-3.5xl font-black w-fit">Creating powerful products for Businesses</h2>
+                    <p className="text-base font-normal mt-4 leading-7">We value continuity and growth, thus we are dedicated to building a successful brand,  delivering seamless products and building a  strong product portfolios for businesses.</p>
                     <BookConsult />
                 </div>
-                <div>
+                <div className="flex w-634px justify-between">
                     <div>
                         <img src={CreatingOne} alt="Creative pages"/>
                     </div>
@@ -102,13 +103,16 @@ const LandingPage = () => {
                 </div>
             </div>
 
-            <div className="flex">
-                <div><img src={ProjectOne} alt="Project One" /></div>    
-                <div><img src={ProjectTwo} alt="Project Two" /></div>    
-                <div><img src={ProjectThree} alt="Project Three" /></div>    
-                <div><img src={ProjectFour} alt="Project Four" /></div>                    
+            <div>
+                <h2 className="text-3.5xl font-black w-fit">Our Favorite Projects</h2>
+                <div className="flex my-12">
+                    <div><img src={ProjectOne} alt="Project One" /></div>    
+                    <div><img src={ProjectTwo} alt="Project Two" /></div>    
+                    <div><img src={ProjectThree} alt="Project Three" /></div>    
+                    <div><img src={ProjectFour} alt="Project Four" /></div>                    
+                </div>
             </div>
-
+            <Footer />
         </div>
     );
 }
