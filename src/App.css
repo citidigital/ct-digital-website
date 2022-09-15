@@ -40,6 +40,10 @@
   display: none;
 }
 
+.hero {
+  background: linear-gradient(93.38deg, #F7FBFC -0.22%, rgba(242, 250, 255, 0) 105.94%);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

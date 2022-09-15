@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import BreadCrumb from "../Assets/BreadCrumb";
-import Logo from "../Assets/Logo"
+import BreadCrumb from "../assets/BreadCrumb";
+import Logo from "../assets/Logo"
 
 const Header = () => {
   const [showMenuTray, setShowMenuTray] = useState(false);
@@ -23,12 +23,16 @@ const Header = () => {
             </a>
           </div>
           <div className="hidden md:flex justify-between md:w-7/10 lg:w-1/2 items-center">
-            <nav className="space-x-8 text-grayish-blue mx-4">
-              <a href="#" className="text-base font-medium hover:text-gray-900 font-normal"> About us </a>
-              <a href="#" className="text-base font-medium hover:text-gray-900 font-normal"> What we do </a>
-              <a href="#" className="text-base font-medium hover:text-gray-900 font-normal"> Projects </a>
-            </nav>
-            <button class="rounded-md bg-newport-blue text-white font-extrabold px-5 py-4">Book a Consultation</button>
+            <div>
+              <nav className="space-x-8 text-grayish-blue mx-4">
+                <a href="#" className="text-base font-medium hover:text-gray-900 font-normal"> About us </a>
+                <a href="#" className="text-base font-medium hover:text-gray-900 font-normal"> What we do </a>
+                <a href="#" className="text-base font-medium hover:text-gray-900 font-normal"> Projects </a>
+              </nav>
+            </div>
+            <div>
+              <button class="rounded-md bg-newport-blue text-white px-5 py-4">Book a Consultation</button>
+            </div>
           </div>
         </div>
       </div>   
