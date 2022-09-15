@@ -1,9 +1,9 @@
 import React from "react";
 
-import RectangleSM from '../Assets/imagesSM/RectangleSM.jpg';
-import SEOmanagement from '../Assets/imagesSM/SEOmanagement.jpg';
-import SocialMediaManagement from '../Assets/imagesSM/SocialMediaManagement.jpg';
-import ContentWriting from '../Assets/imagesSM/ContentWriting.jpg';
+import RectangleSM from '../assets/imagesSM/RectangleSM.jpg';
+import SEOmanagement from '../assets/imagesSM/SEOmanagement.jpg';
+import SocialMediaManagement from '../assets/imagesSM/SocialMediaManagement.jpg';
+import ContentWriting from '../assets/imagesSM/ContentWriting.jpg';
 
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";

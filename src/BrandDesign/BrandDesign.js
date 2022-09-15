@@ -1,9 +1,9 @@
 import React from "react";
 
-import RectangleBD from '../Assets/imagesBD/RectangleBD.jpg';
-import Brand_Design from '../Assets/imagesBD/Brand_Design.jpg';
-import Brand_Guidelines from '../Assets/imagesBD/Brand_Guidelines.jpg';
-import Video_Editing_Multimedia from '../Assets/imagesBD/Video_Editing_Multimedia.jpg';
+import RectangleBD from '../assets/imagesBD/RectangleBD.jpg';
+import Brand_Design from '../assets/imagesBD/Brand_Design.jpg';
+import Brand_Guidelines from '../assets/imagesBD/Brand_Guidelines.jpg';
+import Video_Editing_Multimedia from '../assets/imagesBD/Video_Editing_Multimedia.jpg';
 
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";

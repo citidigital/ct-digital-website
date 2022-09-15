@@ -1,10 +1,10 @@
 import React from "react";
 
-import RectanglePDe from '../Assets/imagesPD/RectanglePDe.jpg';
-import Design_System from '../Assets/imagesPD/DesignSystem.jpg';
-import Interaction_Design from '../Assets/imagesPD/InteractionDesign.jpg';
-import Product_Research from '../Assets/imagesPD/ProductResearch.jpg';
-import UiUx_Design from '../Assets/imagesPD/UiUxDesign.jpg';
+import RectanglePDe from '../assets/imagesPD/RectanglePDe.jpg';
+import Design_System from '../assets/imagesPD/DesignSystem.jpg';
+import Interaction_Design from '../assets/imagesPD/InteractionDesign.jpg';
+import Product_Research from '../assets/imagesPD/ProductResearch.jpg';
+import UiUx_Design from '../assets/imagesPD/UiUxDesign.jpg';
 
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";

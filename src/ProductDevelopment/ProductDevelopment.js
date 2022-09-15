@@ -1,9 +1,9 @@
 import React from "react";
 
-import RectanglePD from '../Assets/imagesPM/RectanglePD.jpg'
-import WebDevelopment from '../Assets/imagesPM/WebDevelopment.jpg'
-import AppDevelopment from '../Assets/imagesPM/AppDevelopment.jpg'
-import WebManagement from '../Assets/imagesPM/WebManagement.jpg'
+import RectanglePD from '../assets/imagesPM/RectanglePD.jpg'
+import WebDevelopment from '../assets/imagesPM/WebDevelopment.jpg'
+import AppDevelopment from '../assets/imagesPM/AppDevelopment.jpg'
+import WebManagement from '../assets/imagesPM/WebManagement.jpg'
 
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";

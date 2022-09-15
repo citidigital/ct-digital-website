@@ -4,9 +4,11 @@ import Footer from "../Components/Footer";
 import {ReactComponent as LPImage} from './lpImage.svg';
 import BookConsult from "../Components/BookConsult";
 
-import {ReactComponent as Ellipse36} from '../Assets/imagesLanding/Ellipse36.svg'; 
-import {ReactComponent as EllipseGroup} from '../Assets/imagesLanding/EllipseGroup.svg';
-import {ReactComponent as Ellipse70} from '../Assets/imagesLanding/Ellipse70.svg';
+import {ReactComponent as Ellipse36} from '../assets/imagesLanding/Ellipse36.svg'; 
+import EllipseGroup from '../assets/imagesLanding/EllipseGroup.svg';
+import {ReactComponent as Ellipse70} from '../assets/imagesLanding/Ellipse70.svg';
+
+import HeroVideo from '../assets/Images/hero_video.jpeg';
 
 import BD from './callouts/BD';
 import WebProgramming from "./callouts/WebProgramming";
@@ -29,8 +31,9 @@ const LandingPage = () => {
     return(
         <div className="landingPage">
             <Header />
-            <div className="bg-lpBackground bg-no-repeat px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-                <div className="absolute">
+            <div className="hero p-4 h-halfscreen md:flex items-center">
+                <div className="max-w-9/10 md:w-full lg:max-w-8/10 mx-auto pl-2 sm:px-2.5">
+                {/* <div className="absolute">
                     <Ellipse36 />
                 </div>
                 <div className="absolute">
@@ -41,26 +44,43 @@ const LandingPage = () => {
                 </div>
                 <div className="absolute">
                     <EllipseGroup />
-                </div>
+                </div> */}
 
-                <div className="flex flex-col items-center justify-between w-full mb-10 lg:flex-row">
-                    
-                    <div className="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
-                        <div className="max-w-xl mb-6">                       
-                            <h2 className="font-sans text-3xl font-bold tracking-tight text-black sm:text-4xl sm:leading-none max-w-lg mb-6">
-                            A Crew of Creative Doers
-                            </h2>
-                            <p className="text-black text-base md:text-lg">CTdigital is a global digital team that brings together design and 
-                            technology to create digital products and experiences for brands across the globe. We collaborate with 
-                            forward-thinking brands to transform digital presence into empowering and efficient experiences.
-                            </p>
+                    <div className="md:flex items-center justify-between w-full mb-10">
+                        
+                        <div className="md:w-1/2">
+                            <div className="w-8/10">
+                                <div className="text-right">
+                                    <div className="w-18 h-18 rounded-full bg-blue1 inline-block"></div>  
+                                </div>
+                                                 
+                                <p className="font-sans text-3xl font-bold tracking-tight text-black sm:text-4xl sm:leading-none max-w-lg mb-6">
+                                A Crew of Creative Doers
+                                </p>
+                                <p className="text-black text-base md:text-lg leading-7 mb-8">CTdigital is a global digital team that brings together design and 
+                                technology to create digital products and experiences for brands across the globe. We collaborate with 
+                                forward-thinking brands to transform digital presence into empowering and efficient experiences.
+                                </p>
+                            </div>
+                            <div>
+                                <button class="rounded-md bg-newport-blue text-white px-5 py-4 leading-5">Book a Consultation</button>
+                            </div>
+
+                            <div className="text-right w-8/10">
+                                <div className="w-9 h-9 rounded-full bg-blue1 inline-block mr-18"></div>  
+                            </div>
                         </div>
-                    </div>
 
-                    <div className="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
-                        <LPImage />    
-                    </div>
+                        <div className="w-1/2 relative">
+                            <div className="text-right">
+                                <img src={HeroVideo} alt="Video in hero section" className="z-10 relative top-0 left-0 inline-block"/>
+                            </div>
+                            
+                            <img src={EllipseGroup} alt="Video in hero section" className="absolute -right-2 -bottom-18"/>
+                            <div className="w-18 h-18 bg-blue1 absolute rounded-full left-24 -bottom-8"></div>
+                        </div>
 
+                    </div>
                 </div>
             </div>
             <div className="px-36 pt-22">
