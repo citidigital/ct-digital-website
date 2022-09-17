@@ -45,7 +45,8 @@ module.exports = {
         'default-gray': '#374151',
         'primary-blue': '#072F40',
         'verylight-blue':'#F7FBFC',
-        'blue1': '#CBF6FF'
+        'blue1': '#CBF6FF',
+        'link': '#40A9FF'
       },
       lineHeight:{
         'leading-14':'3.5rem',

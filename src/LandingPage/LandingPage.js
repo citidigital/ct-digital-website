@@ -6,6 +6,8 @@ import BookConsult from "../Components/BookConsult";
 
 import {ReactComponent as Ellipse36} from '../assets/imagesLanding/Ellipse36.svg'; 
 import EllipseGroup from '../assets/imagesLanding/EllipseGroup.svg';
+import Polygon1 from '../assets/Polygon1.svg';
+import Polygon2 from '../assets/Polygon2.svg';
 import {ReactComponent as Ellipse70} from '../assets/imagesLanding/Ellipse70.svg';
 
 import HeroVideo from '../assets/Images/hero_video.jpeg';
@@ -27,6 +29,7 @@ import ProjectFour from './images/ProjectFour.jpg';
 import CreatingOne from './images/CreatingOne.jpg'
 import CreatingTwo from './images/CreatingTwo.jpg'
 import Carousel from "../Components/Carousel";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
     const projects = [ProjectOne, ProjectTwo, ProjectThree, ProjectFour];
@@ -110,18 +113,26 @@ const LandingPage = () => {
                 </div>
             </div> */}
 
-            <div className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5 md:ml-1/10">
-                <p className="font-sans text-3xl font-bold tracking-tig text-primary-blue sm:text-4xl sm:leading-none max-w-lg mb-6 text-center md:text-left">
-                    Our Favorite Projects
-                </p>
-                <div className="flex my-12">
-                    {projects.map((project, index) => <div className="mr-10" key={index}><img src={project} alt={`Project ${index + 1}`} /></div>)}
-                    {/* {<div><img src={ProjectOne} alt="Project One" /></div>}    
-                    <div><img src={ProjectTwo} alt="Project Two" /></div>    
-                    <div><img src={ProjectThree} alt="Project Three" /></div>    
-                    <div><img src={ProjectFour} alt="Project Four" /></div>                     */}
+            <section className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 projects relative">
+                <img src={Polygon1} alt="Polygon 1" className="polygon-one hidden md:block absolute"/>
+                <div className="md:ml-1/10 relative z-10">
+                    <div className="md:flex justify-between">
+                        <p className="font-sans text-3xl font-bold tracking-tig text-primary-blue sm:text-4xl sm:leading-none max-w-lg mb-6 text-center md:text-left">
+                        Our Favorite Projects
+                        </p>
+                        <Link to="projects" className="text-link text-base">See All Projects</Link>
+                    </div>
+                    
+                    <div className="flex flex-nowrap overflow-scroll my-12 slide">
+                        {projects.map((project, index) => <div className="mr-10 last:mr-0 project" key={index}><img src={project} alt={`Project ${index + 1}`} /></div>)}
+                        {/* {<div><img src={ProjectOne} alt="Project One" /></div>}    
+                        <div><img src={ProjectTwo} alt="Project Two" /></div>    
+                        <div><img src={ProjectThree} alt="Project Three" /></div>    
+                        <div><img src={ProjectFour} alt="Project Four" /></div>                     */}
+                    </div>
                 </div>
-            </div>
+                <img src={Polygon2} alt="Polygon 2" className="ploygon-two hidden md:block absolute"/>
+            </section>
             <Footer />
         </div>
     );

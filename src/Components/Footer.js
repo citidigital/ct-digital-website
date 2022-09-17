@@ -6,7 +6,7 @@ import Logo from "../assets/Logo"
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className="footer relative z-10">
             <div class="bg-gray-100 pt-5">
             <div className="max-w-screen-xl pt-20 px-20 sm:px-6 text-gray-800 sm:grid md:grid-cols-5 sm:grid-cols-2 mx-auto">
                 <div className="">
