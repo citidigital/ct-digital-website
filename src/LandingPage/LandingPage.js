@@ -26,15 +26,16 @@ import ProjectFour from './images/ProjectFour.jpg';
 
 import CreatingOne from './images/CreatingOne.jpg'
 import CreatingTwo from './images/CreatingTwo.jpg'
+import Carousel from "../Components/Carousel";
 
 const LandingPage = () => {
+    const projects = [ProjectOne, ProjectTwo, ProjectThree, ProjectFour];
     return(
         <div className="landingPage">
             <Header />
             <div className="hero md:py-4 min-h-hero md:flex items-center py-6">
                 <div className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5">
-                    <div className="md:flex items-center justify-between w-full mb-6">
-                        
+                    <div className="md:flex items-center justify-between w-full mb-6 md:w-8/10 mx-auto">
                         <div className="md:w-1/2">
                             <div className="md:w-8/10">
                                 <div className="text-right">
@@ -61,13 +62,14 @@ const LandingPage = () => {
                                 <img src={HeroVideo} alt="Video in hero section" className="z-10 relative top-0 left-0 inline-block"/>
                             </div>
                             
-                            <img src={EllipseGroup} alt="Video in hero section" className="hidden md:block absolute -right-2 -bottom-18"/>
-                            <div className="hidden md:block w-18 h-18 bg-blue1 absolute rounded-full left-25 -bottom-8"></div>
+                            <img src={EllipseGroup} alt="Video in hero section" className="hidden md:block absolute -right-4 -bottom-18"/>
+                            <div className="hidden md:block w-18 h-18 bg-blue1 absolute rounded-full -left-6 -bottom-8"></div>
                         </div>
 
                     </div>
                 </div>
             </div>
+            {/* <Carousel />
             <div className="px-36 pt-22">
                 <div className="">
                     <h2 className="text-3.5xl font-black w-fit mx-auto mb-6">Building the Greatest Solutions</h2>
@@ -106,15 +108,18 @@ const LandingPage = () => {
                         <img src={CreatingTwo} alt="Creative pages"/>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
-            <div>
-                <h2 className="text-3.5xl font-black w-fit">Our Favorite Projects</h2>
+            <div className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5 md:ml-1/10">
+                <p className="font-sans text-3xl font-bold tracking-tig text-primary-blue sm:text-4xl sm:leading-none max-w-lg mb-6 text-center md:text-left">
+                    Our Favorite Projects
+                </p>
                 <div className="flex my-12">
-                    <div><img src={ProjectOne} alt="Project One" /></div>    
+                    {projects.map((project, index) => <div className="mr-10" key={index}><img src={project} alt={`Project ${index + 1}`} /></div>)}
+                    {/* {<div><img src={ProjectOne} alt="Project One" /></div>}    
                     <div><img src={ProjectTwo} alt="Project Two" /></div>    
                     <div><img src={ProjectThree} alt="Project Three" /></div>    
-                    <div><img src={ProjectFour} alt="Project Four" /></div>                    
+                    <div><img src={ProjectFour} alt="Project Four" /></div>                     */}
                 </div>
             </div>
             <Footer />

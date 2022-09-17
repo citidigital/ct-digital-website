@@ -56,7 +56,8 @@ module.exports = {
         '4\.5': '1.125rem'
       },
       margin:{
-        '18': '4.5rem'
+        '18': '4.5rem',
+        '1/10': '10%'
       },
       backgroundImage:{
         'lpBackground': "url('./LandingPage/lpBackground.svg')",
