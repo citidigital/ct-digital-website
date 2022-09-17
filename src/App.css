@@ -67,6 +67,10 @@ section.projects .slide{
   min-width: 100%;
 }
 
+section.projects .slide .project .overlay {
+  background: rgba(53, 64, 82, 0.5)
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
