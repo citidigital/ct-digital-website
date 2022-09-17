@@ -28,7 +28,6 @@ import ProjectFour from './images/ProjectFour.jpg';
 
 import CreatingOne from './images/CreatingOne.jpg'
 import CreatingTwo from './images/CreatingTwo.jpg'
-import Carousel from "../Components/Carousel";
 import { Link } from "react-router-dom";
 
 const LandingPage = () => {
@@ -133,8 +132,6 @@ const LandingPage = () => {
                     </div>
                 </div>
             </div> */}
-
-            <Carousel />
 
             <section className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 projects relative">
                 <img src={Polygon1} alt="Polygon 1" className="polygon-one hidden md:block absolute"/>
