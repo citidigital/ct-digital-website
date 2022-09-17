@@ -6,6 +6,8 @@ import BookConsult from "../Components/BookConsult";
 
 import {ReactComponent as Ellipse36} from '../assets/imagesLanding/Ellipse36.svg'; 
 import EllipseGroup from '../assets/imagesLanding/EllipseGroup.svg';
+import Polygon1 from '../assets/Polygon1.svg';
+import Polygon2 from '../assets/Polygon2.svg';
 import {ReactComponent as Ellipse70} from '../assets/imagesLanding/Ellipse70.svg';
 
 import HeroVideo from '../assets/Images/hero_video.jpeg';
@@ -26,63 +28,50 @@ import ProjectFour from './images/ProjectFour.jpg';
 
 import CreatingOne from './images/CreatingOne.jpg'
 import CreatingTwo from './images/CreatingTwo.jpg'
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
+    const projects = [ProjectOne, ProjectTwo, ProjectThree, ProjectFour];
     return(
         <div className="landingPage">
             <Header />
-            <div className="hero p-4 h-halfscreen md:flex items-center">
-                <div className="max-w-9/10 md:w-full lg:max-w-8/10 mx-auto pl-2 sm:px-2.5">
-                {/* <div className="absolute">
-                    <Ellipse36 />
-                </div>
-                <div className="absolute">
-                    <Ellipse70 />
-                </div>
-                <div className="absolute">
-                    <Ellipse70 />
-                </div>
-                <div className="absolute">
-                    <EllipseGroup />
-                </div> */}
-
-                    <div className="md:flex items-center justify-between w-full mb-10">
-                        
+            <div className="hero md:py-4 min-h-hero md:flex items-center py-6">
+                <div className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5">
+                    <div className="md:flex items-center justify-between w-full mb-6 md:w-8/10 mx-auto">
                         <div className="md:w-1/2">
-                            <div className="w-8/10">
+                            <div className="md:w-8/10">
                                 <div className="text-right">
-                                    <div className="w-18 h-18 rounded-full bg-blue1 inline-block"></div>  
+                                    <div className="hidden w-18 h-18 rounded-full bg-blue1 md:inline-block"></div>  
                                 </div>
                                                  
-                                <p className="font-sans text-3xl font-bold tracking-tight text-black sm:text-4xl sm:leading-none max-w-lg mb-6">
+                                <p className="font-sans text-3xl font-bold tracking-tig text-primary-blue sm:text-4xl sm:leading-none max-w-lg mb-6 text-center md:text-left">
                                 A Crew of Creative Doers
                                 </p>
-                                <p className="text-black text-base md:text-lg leading-7 mb-8">CTdigital is a global digital team that brings together design and 
-                                technology to create digital products and experiences for brands across the globe. We collaborate with 
-                                forward-thinking brands to transform digital presence into empowering and efficient experiences.
+                                <p className="text-default-gray text-base md:text-lg leading-7 mb-8">We are a multi-digital workspace with a drive to use design and innovation to promote your  business, leveraging on technology as a platform for change. 
                                 </p>
                             </div>
-                            <div>
+                            <div className="md:mb-0 mb-14 md:text-left text-center">
                                 <button class="rounded-md bg-newport-blue text-white px-5 py-4 leading-5">Book a Consultation</button>
                             </div>
 
-                            <div className="text-right w-8/10">
-                                <div className="w-9 h-9 rounded-full bg-blue1 inline-block mr-18"></div>  
+                            <div className="hidden md:block text-right w-8/10">
+                                <div className="w-9 h-9 rounded-full bg-blue1 inline-block mr-18 mt-9"></div>  
                             </div>
                         </div>
 
-                        <div className="w-1/2 relative">
+                        <div className="md:w-1/2 relative">
                             <div className="text-right">
                                 <img src={HeroVideo} alt="Video in hero section" className="z-10 relative top-0 left-0 inline-block"/>
                             </div>
                             
-                            <img src={EllipseGroup} alt="Video in hero section" className="absolute -right-2 -bottom-18"/>
-                            <div className="w-18 h-18 bg-blue1 absolute rounded-full left-24 -bottom-8"></div>
+                            <img src={EllipseGroup} alt="Video in hero section" className="hidden md:block absolute -right-4 -bottom-18"/>
+                            <div className="hidden md:block w-18 h-18 bg-blue1 absolute rounded-full -left-6 -bottom-8"></div>
                         </div>
 
                     </div>
                 </div>
             </div>
+            {/* <Carousel />
             <div className="px-36 pt-22">
                 <div className="">
                     <h2 className="text-3.5xl font-black w-fit mx-auto mb-6">Building the Greatest Solutions</h2>
@@ -107,7 +96,7 @@ const LandingPage = () => {
                     <BookConsult />
                 </div>
             </div>
-            <div className="flex  p-36 justify-between">
+            <div className="flex p-36 justify-between">
                 <div className="w-96">
                     <h2 className="text-3.5xl font-black w-fit">Creating powerful products for Businesses</h2>
                     <p className="text-base font-normal mt-4 leading-7">We value continuity and growth, thus we are dedicated to building a successful brand,  delivering seamless products and building a  strong product portfolios for businesses.</p>
@@ -121,17 +110,28 @@ const LandingPage = () => {
                         <img src={CreatingTwo} alt="Creative pages"/>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
-            <div>
-                <h2 className="text-3.5xl font-black w-fit">Our Favorite Projects</h2>
-                <div className="flex my-12">
-                    <div><img src={ProjectOne} alt="Project One" /></div>    
-                    <div><img src={ProjectTwo} alt="Project Two" /></div>    
-                    <div><img src={ProjectThree} alt="Project Three" /></div>    
-                    <div><img src={ProjectFour} alt="Project Four" /></div>                    
+            <section className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 projects relative">
+                <img src={Polygon1} alt="Polygon 1" className="polygon-one hidden md:block absolute"/>
+                <div className="md:ml-1/10 relative z-10">
+                    <div className="md:flex justify-between">
+                        <p className="font-sans text-3xl font-bold tracking-tig text-primary-blue sm:text-4xl sm:leading-none max-w-lg mb-6 text-center md:text-left">
+                        Our Favorite Projects
+                        </p>
+                        <Link to="projects" className="text-link text-base">See All Projects</Link>
+                    </div>
+                    
+                    <div className="flex flex-nowrap overflow-scroll my-12 slide">
+                        {projects.map((project, index) => <div className="mr-10 last:mr-0 project" key={index}><img src={project} alt={`Project ${index + 1}`} /></div>)}
+                        {/* {<div><img src={ProjectOne} alt="Project One" /></div>}    
+                        <div><img src={ProjectTwo} alt="Project Two" /></div>    
+                        <div><img src={ProjectThree} alt="Project Three" /></div>    
+                        <div><img src={ProjectFour} alt="Project Four" /></div>                     */}
+                    </div>
                 </div>
-            </div>
+                <img src={Polygon2} alt="Polygon 2" className="ploygon-two hidden md:block absolute"/>
+            </section>
             <Footer />
         </div>
     );

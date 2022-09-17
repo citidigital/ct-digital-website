@@ -44,6 +44,29 @@
   background: linear-gradient(93.38deg, #F7FBFC -0.22%, rgba(242, 250, 255, 0) 105.94%);
 }
 
+section.projects img.polygon-one {
+  left: 22.5%;
+  top: -35%;
+}
+
+section.projects img.ploygon-two {
+  right: 16.5%;
+  bottom: -38.5%;
+}
+
+section.projects .slide div:not(:last-child) {
+  min-width: 304px;
+}
+
+section.projects .slide div:last-child {
+  min-width: calc(304px - 40px)
+}
+
+section.projects .slide{
+  display: flex;
+  min-width: 100%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

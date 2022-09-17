@@ -9,12 +9,14 @@ module.exports = {
       '7/10':'70%',      
       '8/10':'80%',
       '9/10':'90%',
+      'layout': '1440px'
     },
     extend: {
       inset:{
         '196px':'196px',
         '352px':'352px',
-        '18': '4.5rem'
+        '18': '4.5rem',
+        '25': '6.5rem'
       },
       width:{
         '507px':'507px',
@@ -34,7 +36,8 @@ module.exports = {
       height:{
         '465px':'465px',
         halfscreen: '50vh',
-        '18': '4.5rem'
+        '18': '4.5rem',
+        'hero': '498px'
       },
       colors:{
         'newport-blue': '#1D8BCC',
@@ -42,17 +45,20 @@ module.exports = {
         'default-gray': '#374151',
         'primary-blue': '#072F40',
         'verylight-blue':'#F7FBFC',
-        'blue1': '#CBF6FF'
+        'blue1': '#CBF6FF',
+        'link': '#40A9FF'
       },
       lineHeight:{
         'leading-14':'3.5rem',
       },
       padding:{
         '13':'52px',
-        '22':'88px'
+        '22':'88px',
+        '4\.5': '1.125rem'
       },
       margin:{
-        '18': '4.5rem'
+        '18': '4.5rem',
+        '1/10': '10%'
       },
       backgroundImage:{
         'lpBackground': "url('./LandingPage/lpBackground.svg')",
