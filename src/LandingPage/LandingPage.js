@@ -32,11 +32,32 @@ import Carousel from "../Components/Carousel";
 import { Link } from "react-router-dom";
 
 const LandingPage = () => {
-    const projects = [ProjectOne, ProjectTwo, ProjectThree, ProjectFour];
+    const projects = [
+        {
+            title: 'Quantum Clinic',
+            summary: 'Quantum Clinic was conceived as a spa to not just for your body but also for your DNA...',
+            image_url: ProjectOne
+        },
+        {
+            title: 'Live Draws',
+            summary: 'Quantum Clinic was conceived as a spa to not just for your body but also for your DNA...',
+            image_url: ProjectTwo
+        },
+        {
+            title: 'Pure Minutes',
+            summary: 'Quantum Clinic was conceived as a spa to not just for your body but also for your DNA...',
+            image_url: ProjectThree
+        },
+        {
+            title: 'Miss Eko',
+            summary: 'Quantum Clinic was conceived as a spa to not just for your body but also for your DNA...',
+            image_url: ProjectFour
+        }
+    ];
     return(
         <div className="landingPage">
             <Header />
-            <div className="hero md:py-4 min-h-hero md:flex items-center py-6">
+            <section className="hero md:py-4 min-h-hero md:flex items-center py-6">
                 <div className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5">
                     <div className="md:flex items-center justify-between w-full mb-6 md:w-8/10 mx-auto">
                         <div className="md:w-1/2">
@@ -71,7 +92,7 @@ const LandingPage = () => {
 
                     </div>
                 </div>
-            </div>
+            </section>
             {/* <Carousel />
             <div className="px-36 pt-22">
                 <div className="">
@@ -113,6 +134,8 @@ const LandingPage = () => {
                 </div>
             </div> */}
 
+            <Carousel />
+
             <section className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 projects relative">
                 <img src={Polygon1} alt="Polygon 1" className="polygon-one hidden md:block absolute"/>
                 <div className="md:ml-1/10 relative z-10">
@@ -124,7 +147,20 @@ const LandingPage = () => {
                     </div>
                     
                     <div className="flex flex-nowrap overflow-scroll my-12 slide">
-                        {projects.map((project, index) => <div className="mr-10 last:mr-0 project" key={index}><img src={project} alt={`Project ${index + 1}`} /></div>)}
+                        {projects.map(
+                            (project, index) => <div className="mr-10 last:mr-0 project relative" key={index}>
+                                <img src={project.image_url} alt={`Project ${index + 1}`} />
+                                <div className="overlay absolute bg-red-500 opacity-0 hover:opacity-100 top-0 left-0 w-full h-full rounded-lg shadow text-center">
+                                    <div className="py-24 px-12">
+                                        <p className="text-white font-bold text-2xl">{project.title}</p>
+                                        <p className="text-white mt-4 mb-10 text-lg">
+                                        {project.summary}
+                                        </p>
+                                        <Link to={`projects/${index+1}`} className="border bg-transparent text-white py-2.5 px-9 rounded-md">View Project</Link>
+                                    </div>
+                                </div>
+                            </div>
+                        )}
                         {/* {<div><img src={ProjectOne} alt="Project One" /></div>}    
                         <div><img src={ProjectTwo} alt="Project Two" /></div>    
                         <div><img src={ProjectThree} alt="Project Three" /></div>    
