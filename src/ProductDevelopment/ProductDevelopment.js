@@ -36,25 +36,29 @@ const ProductDevelopment = () => {
                 <img src={RectanglePD} alt="Product Development" className="w-full"/>
             </div>
             
-            <PageSection
-                position="right"
-                Header = {firstImageSection.header}
-                Paragraph = {firstImageSection.paragraph}
-                Image = {firstImageSection.ImageComponent}
-            />
+            <section className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5 projects relative py-16">
+                <div className="md:w-9/10 lg:w-8/10 mx-auto">
+                    <PageSection
+                        position="right"
+                        Header = {firstImageSection.header}
+                        Paragraph = {firstImageSection.paragraph}
+                        Image = {firstImageSection.ImageComponent}
+                    />
 
-            <PageSection
-                Header = {secondImageSection.header}
-                Paragraph = {secondImageSection.paragraph}
-                Image = {secondImageSection.ImageComponent}
-            />
+                    <PageSection
+                        Header = {secondImageSection.header}
+                        Paragraph = {secondImageSection.paragraph}
+                        Image = {secondImageSection.ImageComponent}
+                    />
 
-            <PageSection
-                position="right"
-                Header = {thirdImageSection.header}
-                Paragraph = {thirdImageSection.paragraph}
-                Image = {thirdImageSection.ImageComponent}
-                />
+                    <PageSection
+                        position="right"
+                        Header = {thirdImageSection.header}
+                        Paragraph = {thirdImageSection.paragraph}
+                        Image = {thirdImageSection.ImageComponent}
+                        />
+                </div>
+            </section>
 
             <Footer />
         </div>

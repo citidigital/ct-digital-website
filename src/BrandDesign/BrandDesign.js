@@ -27,7 +27,7 @@ const thirdImageSection = {
 
 const BrandDesign = () => {
     return (
-        <div className="BrandDesign">
+        <div className="brand-design">
 
             <Header />
 
@@ -35,38 +35,45 @@ const BrandDesign = () => {
                 <img className="w-full" src={RectangleBD} alt="Brand Design"/>
             </div>
 
-            <div className="flex-col max-w-2/3 mx-auto">
-                    
-                    <h2 className="w-2/5 mt-20 mb-14 leading-14 mx-auto text-center text-5xl font-semibold">Brand Design</h2>
-                    
-                    <p className='mb-14 text-center px-60'>Building a brand identity requires designs and, that is where our creativity comes to play in developing what makes you instantly recognizable by your customers. To attain great layouts, we first set up the design structure and create your business assets. Typography, colour, and form or shape are the essential elements of consideration for our design process (method). Your business value comes from the application of these concepts.</p>                 
-                    
-                    <div className="w-2/3 mx-auto mb-14 text-center">
-                            <button className="rounded-md bg-newport-blue text-white font-extrabold px-5 py-4" >View Projects</button>     
+            <section className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5 projects relative pt-16 md:pb-16 pb-0">
+                <div className="md:w-9/10 lg:w-8/10 mx-auto">
+                    <p className="font-semibold font-sans text-5xl text-primary-blue sm:text-5xl sm:leading-none max-w-lg text-center">
+                        Brand Design
+                    </p>
+                    <p className='text-default-gray text-base md:text-lg leading-7 mb-10 text-center mt-6 md:px-10 lg:px-24'>Building a brand identity requires designs and, that is where our creativity comes to play in developing what makes you instantly recognizable by your customers. To attain great layouts, we first set up the design structure and create your business assets. Typography, colour, and form or shape are the essential elements of consideration for our design process (method). Your business value comes from the application of these concepts.</p>
+                    <div className="md:mb-0 mb-14 text-center">
+                        <button class="rounded-md bg-newport-blue text-white px-5 py-4 leading-5 w-48">View Projects</button>
                     </div>
+                </div>
+            </section>
 
-                    <h2 className="w-2/5 mt-24 mb-5 leading-14 mx-auto text-center text-5xl font-semibold">Our Section</h2>
-            </div>
+            <section className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5 projects relative py-16">
+                <div className="md:w-9/10 lg:w-8/10 mx-auto">
+                    <p className="font-semibold text-5xl text-primary-blue sm:text-4xl sm:leading-none max-w-lg text-center md:mb-11 mb-6">
+                        Our Services
+                    </p>
             
-            <PageSection
-                position="right"
-                Header = {firstImageSection.header}
-                Paragraph = {firstImageSection.paragraph}
-                Image = {firstImageSection.ImageComponent}
-                />
+                    <PageSection
+                        position="right"
+                        Header = {firstImageSection.header}
+                        Paragraph = {firstImageSection.paragraph}
+                        Image = {firstImageSection.ImageComponent}
+                        />
 
-            <PageSection
-                Header = {secondImageSection.header}
-                Paragraph = {secondImageSection.paragraph}
-                Image = {secondImageSection.ImageComponent}
-                />
+                    <PageSection
+                        Header = {secondImageSection.header}
+                        Paragraph = {secondImageSection.paragraph}
+                        Image = {secondImageSection.ImageComponent}
+                        />
 
-            <PageSection
-                position="right"
-                Header = {thirdImageSection.header}
-                Paragraph = {thirdImageSection.paragraph}
-                Image = {thirdImageSection.ImageComponent}
-                />
+                    <PageSection
+                        position="right"
+                        Header = {thirdImageSection.header}
+                        Paragraph = {thirdImageSection.paragraph}
+                        Image = {thirdImageSection.ImageComponent}
+                        />
+                </div>
+            </section>
 
             <Footer />
         </div>
