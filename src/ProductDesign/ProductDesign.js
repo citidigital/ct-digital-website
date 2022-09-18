@@ -43,7 +43,7 @@ const ProductDesign = () => {
             </div>
 
             <section className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5 projects relative pt-16 md:pb-16 pb-0">
-                <div className="md:w-8/10 mx-auto">
+                <div className="md:w-9/10 lg:w-8/10 mx-auto">
                     <p className="font-semibold font-sans text-5xl text-primary-blue sm:text-5xl sm:leading-none max-w-lg text-center">
                         Product Design
                     </p>
@@ -53,20 +53,9 @@ const ProductDesign = () => {
                     </div>
                 </div>
             </section>
-
-            {/* <div className="flex-col max-w-2/3 mx-auto">
-                <h1 className="w-2/5 mt-20 mb-14 leading-14 mx-auto text-center text-5xl font-semibold">Product Brand Design</h1>
-                <p className='mb-14 text-center px-60'>A successful product is a blend of company objectives and user requirements. We accomplish this by combining the two while continuously improving the user experience to assist brands in developing long-term products.</p>                 
-                
-                <div className="w-2/3 mx-auto mb-14 text-center">
-                        <button className="rounded-md bg-newport-blue text-white font-extrabold px-5 py-4" >View Projects</button>
-                </div>
-
-                <h2 className="w-2/5 mt-24 mb-5 leading-14 mx-auto text-center text-5xl font-semibold">Our Section</h2>
-            </div> */}
             
             <section className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5 projects relative py-16">
-                <div className="md:w-8/10 mx-auto">
+                <div className="md:w-9/10 lg:w-8/10 mx-auto">
                     <p className="font-semibold text-5xl text-primary-blue sm:text-4xl sm:leading-none max-w-lg text-center mb-6 md:mb-11">
                         Our Services
                     </p>

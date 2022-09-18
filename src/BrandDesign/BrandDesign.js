@@ -36,7 +36,7 @@ const BrandDesign = () => {
             </div>
 
             <section className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5 projects relative pt-16 md:pb-16 pb-0">
-                <div className="md:w-8/10 mx-auto">
+                <div className="md:w-9/10 lg:w-8/10 mx-auto">
                     <p className="font-semibold font-sans text-5xl text-primary-blue sm:text-5xl sm:leading-none max-w-lg text-center">
                         Brand Design
                     </p>
@@ -48,7 +48,7 @@ const BrandDesign = () => {
             </section>
 
             <section className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5 projects relative py-16">
-                <div className="md:w-8/10 mx-auto">
+                <div className="md:w-9/10 lg:w-8/10 mx-auto">
                     <p className="font-semibold text-5xl text-primary-blue sm:text-4xl sm:leading-none max-w-lg text-center md:mb-11 mb-6">
                         Our Services
                     </p>
