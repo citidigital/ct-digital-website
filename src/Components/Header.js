@@ -7,18 +7,8 @@ const Header = () => {
 
   return (
     <div className="sticky top-0 bg-white z-40">
-<<<<<<< HEAD
-
-      <div className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5">
-        <div className="flex justify-between items-center py-4 md:w-8/10 mx-auto">
-||||||| 30206be
-
       <div className="max-w-9/10 md:w-full lg:max-w-8/10 mx-auto pl-2 sm:px-6">
         <div className="flex justify-between items-center pt-4 pb-2">
-=======
-      <div className="max-w-9/10 md:w-full lg:max-w-8/10 mx-auto pl-2 sm:px-6">
-        <div className="flex justify-between items-center pt-4 pb-2">
->>>>>>> david-agbemuko-dev
           <div className="hidden md:flex justify-start md:w-3/10 lg:w-1/2">
             <a href="#">
               <Logo />
