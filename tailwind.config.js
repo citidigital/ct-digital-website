@@ -28,7 +28,7 @@ module.exports = {
         '4/10': '40%',
         '5/10': '50%',
         '6/10': '60%',
-        '7/10':'70%',      
+        '7/10':'70%', 
         '8/10':'80%',
         '9/10':'90%',
         '18': '4.5rem'
@@ -45,7 +45,8 @@ module.exports = {
         'default-gray': '#374151',
         'primary-blue': '#072F40',
         'verylight-blue':'#F7FBFC',
-        'blue1': '#CBF6FF'
+        'blue1': '#CBF6FF',
+        'link': '#40A9FF'
       },
       lineHeight:{
         'leading-14':'3.5rem',
@@ -53,7 +54,8 @@ module.exports = {
       padding:{
         '13':'52px',
         '22':'88px',
-        '4\.5': '1.125rem'
+        '4\.5': '1.125rem',
+        '18': '4.5rem',
       },
       margin:{
         '18': '4.5rem',

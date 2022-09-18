@@ -34,7 +34,7 @@ const fourthImageSection = {
 
 const ProductDesign = () => {
     return (
-        <div className="ProductDesign">
+        <div className="product-design">
 
             <Header />
 
@@ -42,43 +42,51 @@ const ProductDesign = () => {
                 <img src={RectanglePDe} alt="Product Design" Class="w-full"/>
             </div>
 
-            <div className="flex-col max-w-2/3 mx-auto">
-                <h1 className="w-2/5 mt-20 mb-14 leading-14 mx-auto text-center text-5xl font-semibold">Product Brand Design</h1>
-                <p className='mb-14 text-center px-60'>A successful product is a blend of company objectives and user requirements. We accomplish this by combining the two while continuously improving the user experience to assist brands in developing long-term products.</p>                 
-                
-                <div className="w-2/3 mx-auto mb-14 text-center">
-                        <button className="rounded-md bg-newport-blue text-white font-extrabold px-5 py-4" >View Projects</button>
+            <section className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5 projects relative pt-16 md:pb-16 pb-0">
+                <div className="md:w-9/10 lg:w-8/10 mx-auto">
+                    <p className="font-semibold font-sans text-5xl text-primary-blue sm:text-5xl sm:leading-none max-w-lg text-center">
+                        Product Design
+                    </p>
+                    <p className='text-default-gray text-base md:text-lg leading-7 mb-10 text-center mt-6 md:px-16 lg:px-52'>A successful product is a blend of company objectives and user requirements. We accomplish this by combining the two while continuously improving the user experience to assist brands in developing long-term products.</p>
+                    <div className="md:mb-0 mb-14 text-center">
+                        <button class="rounded-md bg-newport-blue text-white px-5 py-4 leading-5 w-48">View Projects</button>
+                    </div>
                 </div>
-
-                <h2 className="w-2/5 mt-24 mb-5 leading-14 mx-auto text-center text-5xl font-semibold">Our Section</h2>
-            </div>
+            </section>
             
-            <PageSection
-                position="right"
-                Header = {firstImageSection.header}
-                Paragraph = {firstImageSection.paragraph}
-                Image = {firstImageSection.ImageComponent}
-                />
+            <section className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5 projects relative py-16">
+                <div className="md:w-9/10 lg:w-8/10 mx-auto">
+                    <p className="font-semibold text-5xl text-primary-blue sm:text-4xl sm:leading-none max-w-lg text-center mb-6 md:mb-11">
+                        Our Services
+                    </p>
+                    <PageSection
+                        position="right"
+                        Header = {firstImageSection.header}
+                        Paragraph = {firstImageSection.paragraph}
+                        Image = {firstImageSection.ImageComponent}
+                        />
 
-            <PageSection
-                Header = {secondImageSection.header}
-                Paragraph = {secondImageSection.paragraph}
-                Image = {secondImageSection.ImageComponent}
-                />
+                    <PageSection
+                        Header = {secondImageSection.header}
+                        Paragraph = {secondImageSection.paragraph}
+                        Image = {secondImageSection.ImageComponent}
+                        />
 
-            <PageSection
-                position="right"
-                Header = {thirdImageSection.header}
-                Paragraph = {thirdImageSection.paragraph}
-                Image = {thirdImageSection.ImageComponent}
-                />
+                    <PageSection
+                        position="right"
+                        Header = {thirdImageSection.header}
+                        Paragraph = {thirdImageSection.paragraph}
+                        Image = {thirdImageSection.ImageComponent}
+                        />
 
-            <PageSection
-                position="left"
-                Header = {fourthImageSection.header}
-                Paragraph = {fourthImageSection.paragraph}
-                Image = {fourthImageSection.ImageComponent}
-                />
+                    <PageSection
+                        position="left"
+                        Header = {fourthImageSection.header}
+                        Paragraph = {fourthImageSection.paragraph}
+                        Image = {fourthImageSection.ImageComponent}
+                        />
+                </div>
+            </section>
 
             <Footer />
         </div>

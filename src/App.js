@@ -19,7 +19,7 @@ function App() {
     <Routes>
       <Route path="" element = {<LandingPage/>} />
       <Route path='product-development' element = {<ProductDevelopment />} />
-      <Route path='social-media' element = {<SocialMediaPage />} />
+      <Route path='social-media-management' element = {<SocialMediaPage />} />
       <Route path='brand-design' element = {<BrandDesign />} />
       <Route path="/product-design" element = {<ProductDesign />}/>
     </Routes>
