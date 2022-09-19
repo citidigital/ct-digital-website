@@ -6,11 +6,14 @@ import BookConsult from "../Components/BookConsult";
 
 import {ReactComponent as Ellipse36} from '../assets/imagesLanding/Ellipse36.svg'; 
 import EllipseGroup from '../assets/imagesLanding/EllipseGroup.svg';
+import DoubleEllipseGroup from '../assets/DoubleEllipseGroup.svg';
 import Polygon1 from '../assets/Polygon1.svg';
 import Polygon2 from '../assets/Polygon2.svg';
 import {ReactComponent as Ellipse70} from '../assets/imagesLanding/Ellipse70.svg';
 
 import HeroVideo from '../assets/Images/hero_video.jpeg';
+import DesignReview from '../assets/Images/design_review.png';
+import IconPalet from '../assets/Images/icon_palet.png';
 
 import BD from './callouts/BD';
 import WebProgramming from "./callouts/WebProgramming";
@@ -58,14 +61,14 @@ const LandingPage = () => {
             <Header />
             <section className="hero md:py-4 min-h-hero md:flex items-center py-6">
                 <div className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5">
-                    <div className="md:flex items-center justify-between w-full mb-6 md:w-8/10 mx-auto">
+                    <div className="md:flex items-center justify-between w-full mb-6 md:w-9/10 lg:w-8/10 mx-auto">
                         <div className="md:w-1/2">
-                            <div className="md:w-8/10">
+                            <div className="md:w-9/10 lg:w-8/10">
                                 <div className="text-right">
                                     <div className="hidden w-18 h-18 rounded-full bg-blue1 md:inline-block"></div>  
                                 </div>
                                                  
-                                <p className="font-sans text-3xl font-bold tracking-tig text-primary-blue sm:text-4xl sm:leading-none max-w-lg mb-6 text-center md:text-left">
+                                <p className="text-3xl font-bold text-primary-blue sm:text-4xl sm:leading-none max-w-lg mb-6 text-center md:text-left">
                                 A Crew of Creative Doers
                                 </p>
                                 <p className="text-default-gray text-base md:text-lg leading-7 mb-8">We are a multi-digital workspace with a drive to use design and innovation to promote your  business, leveraging on technology as a platform for change. 
@@ -133,11 +136,46 @@ const LandingPage = () => {
                 </div>
             </div> */}
 
+            <section className="products-for-business md:py-4 min-h-hero md:flex items-center py-6">
+                <div className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5">
+                    <div className="md:flex items-center justify-between w-full mb-6 md:w-9/10 lg:w-8/10 mx-auto">
+                        <div className="md:w-4/10">
+                            <div className="md:w-9/10 lg:w-8/10">
+                                <div className="text-right">
+                                    <div className="hidden w-18 h-18 rounded-full bg-blue1 md:inline-block"></div>  
+                                </div>
+                                                 
+                                <p className="text-3xl font-bold text-primary-blue sm:text-4xl sm:leading-none leading-11 max-w-lg mb-4 text-center md:text-left">
+                                    Creating powerful products for Businesses
+                                </p>
+                                <p className="text-default-gray text-base md:text-lg leading-7 mb-10">We value continuity and growth, thus we are dedicated to building a successful brand,  delivering seamless products and building a  strong product portfolios for businesses. 
+                                </p>
+                            </div>
+                            <div className="md:mb-0 mb-14 md:text-left text-center">
+                                <button class="rounded-md bg-newport-blue text-white px-5 py-4 w-button-width leading-5">Book a Consultation</button>
+                            </div>
+                        </div>
+
+                        <div className="flex md:w-6/10 relative space-x-6">
+                            <div className="">
+                                <img src={IconPalet} alt="Video in hero section" className="z-10 relative top-0 left-0 inline-block"/>
+                            </div>
+                            <div className="">
+                                <img src={DesignReview} alt="Video in hero section" className="z-10 relative top-0 left-0 inline-block"/>
+                            </div>
+                            
+                            <img src={DoubleEllipseGroup} alt="Video in hero section" className="hidden md:block absolute left-32 -bottom-20"/>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
             <section className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 projects relative">
                 <img src={Polygon1} alt="Polygon 1" className="polygon-one hidden md:block absolute"/>
                 <div className="md:ml-1/10 relative z-10">
                     <div className="md:flex justify-between">
-                        <p className="font-sans text-3xl font-bold tracking-tig text-primary-blue sm:text-4xl sm:leading-none max-w-lg mb-6 text-center md:text-left">
+                        <p className="text-3xl font-bold text-primary-blue sm:text-3.5xl sm:leading-none max-w-lg mb-6 text-center md:text-left">
                         Our Favorite Projects
                         </p>
                         <Link to="projects" className="text-link text-base">See All Projects</Link>
