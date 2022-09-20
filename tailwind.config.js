@@ -16,7 +16,8 @@ module.exports = {
         '196px':'196px',
         '352px':'352px',
         '18': '4.5rem',
-        '25': '6.5rem'
+        '25': '6.5rem',
+        '5\.5': '1.375rem'
       },
       width:{
         '507px':'507px',
@@ -31,7 +32,8 @@ module.exports = {
         '7/10':'70%', 
         '8/10':'80%',
         '9/10':'90%',
-        '18': '4.5rem'
+        '18': '4.5rem',
+        'button-width': '17.375rem'
       },
       height:{
         '465px':'465px',
@@ -49,7 +51,8 @@ module.exports = {
         'link': '#40A9FF'
       },
       lineHeight:{
-        'leading-14':'3.5rem',
+        '14':'3.5rem',
+        '11':'2.75rem',
       },
       padding:{
         '13':'52px',

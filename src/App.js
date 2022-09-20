@@ -21,7 +21,7 @@ function App() {
       <Route path='product-development' element = {<ProductDevelopment />} />
       <Route path='social-media-management' element = {<SocialMediaPage />} />
       <Route path='brand-design' element = {<BrandDesign />} />
-      <Route path="/product-design" element = {<ProductDesign />}/>
+      <Route path="product-design" element = {<ProductDesign />}/>
     </Routes>
   );
 }

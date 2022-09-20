@@ -71,6 +71,10 @@ section.projects .slide .project .overlay {
   background: rgba(53, 64, 82, 0.5)
 }
 
+section.products-for-business {
+  background-image: url('./assets/background-illustration.svg');
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
