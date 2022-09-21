@@ -71,8 +71,12 @@ section.projects .slide .project .overlay {
   background: rgba(53, 64, 82, 0.5)
 }
 
-section.products-for-business {
+section .products-for-business img{
   background-image: url('./assets/background-illustration.svg');
+}
+
+section.innovative-product img.double-ellipse-group{
+  bottom: -8.125rem;
 }
 
 @keyframes App-logo-spin {

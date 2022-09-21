@@ -56,13 +56,15 @@ module.exports = {
       },
       padding:{
         '13':'52px',
+        '15':'3.75rem',
         '22':'88px',
         '4\.5': '1.125rem',
         '18': '4.5rem',
       },
       margin:{
         '18': '4.5rem',
-        '1/10': '10%'
+        '1/10': '10%',
+        '2/10': '20%'
       },
       backgroundImage:{
         'lpBackground': "url('./LandingPage/lpBackground.svg')",
