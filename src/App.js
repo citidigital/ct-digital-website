@@ -9,7 +9,7 @@ import BrandDesign from './BrandDesign/BrandDesign'
 import ProductDesign from "./ProductDesign/ProductDesign";
 
 import LandingPage from './LandingPage/LandingPage'
-
+import AboutUs from './AboutUs/aboutUs'
 
 import './App.css';
 
@@ -21,7 +21,8 @@ function App() {
       <Route path='product-development' element = {<ProductDevelopment />} />
       <Route path='social-media-management' element = {<SocialMediaPage />} />
       <Route path='brand-design' element = {<BrandDesign />} />
-      <Route path="/product-design" element = {<ProductDesign />}/>
+      <Route path="product-design" element = {<ProductDesign />}/>
+      <Route path="about-us" element = {<AboutUs />}/>
     </Routes>
   );
 }
