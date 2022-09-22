@@ -13,7 +13,7 @@ import Image10 from '../assets/Images/DesignGallery/image10.png';
 
 const ProjectGallery = () => {
     return(
-        <section class="overflow-hidden text-gray-700 md:mb-80">
+        <section class="overflow-hidden text-gray-700 md:mb-80 md:mt-0 mt-10">
             <div class="container px-5 py-2 mx-auto lg:pt-15 lg:px-32">
                 <div class="flex flex-wrap -m-1 md:-m-2">
                     <div class="flex flex-wrap w-1/3">

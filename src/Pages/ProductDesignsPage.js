@@ -4,7 +4,8 @@ import DesignHero from '../assets/Images/design_hero.jpeg'
 
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
-import ProjectGallery from "../Components/ProjectGallery";
+import ProjectGallery from "./ProjectGallery";
+import UIDesignPage from "./UIDesignPage";
 
 const ProductDesignsPage = () => {
     const [selectedTab, setSelectedTab] = useState(1);
@@ -25,6 +26,7 @@ const ProductDesignsPage = () => {
                     
                 </div>
                 {selectedTab == 1 ? null : <ProjectGallery />}
+                {selectedTab == 3 ? null : <UIDesignPage />}
             </section>
 
             <Footer />
