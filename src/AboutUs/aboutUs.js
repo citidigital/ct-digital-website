@@ -46,14 +46,14 @@ const AboutUs = () => {
                 <h2>Our core Values</h2>
                 <div className="flex">
                     <div>
-                        <img src={Excellence} alt="Excellence"/>
+                        <img src={Innovation} alt="Excellence"/>
                         <div>
                             <h3>Innovation</h3>
                             <p>Assist our clients in achieving the potentials of their needs through our services by encouraging innovation, world-changing ideas, and critical thinking.</p>
                         </div>
                     </div>
                     <div>
-                        <img src={Innovation} alt="Innovation"/>
+                        <img src={Excellence} alt="Innovation"/>
                         <div>
                             <h3>Excellence</h3>
                             <p>By encouraging efficient communication and conducting appropriate chart rating and timely feedbacks, we consistently exceed our clients' expectations.</p>
