@@ -16,7 +16,8 @@ module.exports = {
         '196px':'196px',
         '352px':'352px',
         '18': '4.5rem',
-        '25': '6.5rem'
+        '25': '6.5rem',
+        '5\.5': '1.375rem'
       },
       width:{
         '828px':'828px',
@@ -35,7 +36,8 @@ module.exports = {
         '7/10':'70%', 
         '8/10':'80%',
         '9/10':'90%',
-        '18': '4.5rem'
+        '18': '4.5rem',
+        'button-width': '17.375rem'
       },
       height:{
         '465px':'465px',
@@ -53,17 +55,20 @@ module.exports = {
         'link': '#40A9FF'
       },
       lineHeight:{
-        'leading-14':'3.5rem',
+        '14':'3.5rem',
+        '11':'2.75rem',
       },
       padding:{
         '13':'52px',
+        '15':'3.75rem',
         '22':'88px',
         '4\.5': '1.125rem',
         '18': '4.5rem',
       },
       margin:{
         '18': '4.5rem',
-        '1/10': '10%'
+        '1/10': '10%',
+        '2/10': '20%'
       },
       backgroundImage:{
         'lpBackground': "url('./LandingPage/lpBackground.svg')",

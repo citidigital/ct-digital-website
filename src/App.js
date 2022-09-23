@@ -12,6 +12,8 @@ import LandingPage from './LandingPage/LandingPage'
 import AboutUs from './AboutUs/aboutUs'
 
 import './App.css';
+import Projectpage from "./Components/ProjectPage";
+import ProductDesignsPage from "./Pages/ProductDesignsPage";
 
 
 function App() {
@@ -19,10 +21,12 @@ function App() {
     <Routes>
       <Route path="" element = {<LandingPage/>} />
       <Route path='product-development' element = {<ProductDevelopment />} />
+      <Route path='product-page' element = {<Projectpage />} />
+      <Route path='designs' element = {<ProductDesignsPage />} />
       <Route path='social-media-management' element = {<SocialMediaPage />} />
       <Route path='brand-design' element = {<BrandDesign />} />
       <Route path="product-design" element = {<ProductDesign />}/>
-      <Route path="about-us" element = {<AboutUs />}/>
+      <Route path="about-us" element ={<AboutUs />}/>
     </Routes>
   );
 }
