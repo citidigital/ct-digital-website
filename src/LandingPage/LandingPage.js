@@ -137,7 +137,7 @@ const LandingPage = () => {
                 </div>
             </div> */}
 
-            <section className="innovative-product md:py-15 min-h-hero md:flex items-center py-6">
+            <section className="innovative-product md:py-15 md:flex items-center py-6">
                 <div className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5">
                     <div className="md:flex items-center justify-between w-full mb-6 md:w-9/10 lg:w-8/10 mx-auto md:space-x-6 text-center">
                         <div className="md:w-1/2 relative">
@@ -165,7 +165,7 @@ const LandingPage = () => {
                 </div>
             </section>
 
-            <section className="products-for-business md:py-24 min-h-hero md:flex items-center py-6">
+            <section className="products-for-business md:py-24 md:flex items-center py-6">
                 <div className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5">
                     <div className="md:flex items-center justify-between w-full mb-6 md:w-9/10 lg:w-8/10 mx-auto">
                         <div className="md:w-4/10 z-10">

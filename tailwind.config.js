@@ -16,7 +16,9 @@ module.exports = {
         '196px':'196px',
         '352px':'352px',
         '18': '4.5rem',
+        '22': '5.5rem',
         '25': '6.5rem',
+        '30': '7.5rem',
         '5\.5': '1.375rem'
       },
       width:{
@@ -29,6 +31,7 @@ module.exports = {
   
         '1/10': '10%',
         '2/10': '20%',
+        '2\.7/10': '27%',
         '3/10':'30%',
         '4/10': '40%',
         '5/10': '50%',
@@ -37,13 +40,15 @@ module.exports = {
         '8/10':'80%',
         '9/10':'90%',
         '18': '4.5rem',
-        'button-width': '17.375rem'
+        'button-width': '17.375rem',
+        '38': '9.5rem'
       },
       height:{
         '465px':'465px',
         halfscreen: '50vh',
         '18': '4.5rem',
-        'hero': '498px'
+        'hero': '498px',
+        '8\.2': '82%'
       },
       colors:{
         'newport-blue': '#1D8BCC',
@@ -52,7 +57,20 @@ module.exports = {
         'primary-blue': '#072F40',
         'verylight-blue':'#F7FBFC',
         'blue1': '#CBF6FF',
-        'link': '#40A9FF'
+        'link': '#40A9FF',
+        'alice-blue': '#F3F7FF',
+        'magenta': '#E6E1E7',
+        'violet': '#E8F4F9',
+        'gray': '#E5E7EB',
+        'dark-cyan': '#00425F',
+        'cyan-blue': '#F9FAFB',
+        'light-cyan': '#EBF8FE',
+        'primary1': '#063C5C',
+        'primary2': '#364653',
+        'secondary1': '#1D8BCC',
+        'secondary2': '#00B8DE',
+        'popColor1': '#DCD6CF',
+        'popColor2': '#F7E2D2',
       },
       lineHeight:{
         '14':'3.5rem',
@@ -64,17 +82,20 @@ module.exports = {
         '22':'88px',
         '4\.5': '1.125rem',
         '18': '4.5rem',
+        '21': '5.25rem'
       },
       margin:{
         '18': '4.5rem',
         '1/10': '10%',
-        '2/10': '20%'
+        '2/10': '20%',
+        '7\.5': '1.875rem'
       },
       backgroundImage:{
         'lpBackground': "url('./LandingPage/lpBackground.svg')",
       },
       fontSize: {
-        '3\.5xl': '2rem'
+        '3\.5xl': '2rem',
+        '4\.5xl': '2.5rem',
       }
     },
   },
