@@ -29,13 +29,6 @@ const AboutUs = () => {
     ];
     return (
         <div className="AboutUs">
-            <Header/>
-            <div className="bg-gray-200 h-12">
-                <div className="flex p-4 pl-48">
-                    <p className="mr-10">Overview</p>
-                    <p className="mr-10">Our Team</p>
-                </div>
-            </div>
             <section className="mt-16 mb-16">
                 <div className="pl-40 pr-36">
                     <img src={BackgroundIllustration} alt="background illustration" className="polygon-one hidden md:block absolute"/>
@@ -98,7 +91,6 @@ const AboutUs = () => {
                     </div>
                 </div>
             </section>
-            <Footer/>
         </div>
     );
 }

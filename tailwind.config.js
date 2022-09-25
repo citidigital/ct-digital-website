@@ -53,6 +53,7 @@ module.exports = {
       colors:{
         'newport-blue': '#1D8BCC',
         'grayish-blue':'#353F50',
+        'gray-100': '#F3F4F6',
         'default-gray': '#374151',
         'primary-blue': '#072F40',
         'verylight-blue':'#F7FBFC',
@@ -71,7 +72,9 @@ module.exports = {
         'secondary2': '#00B8DE',
         'popColor1': '#DCD6CF',
         'popColor2': '#F7E2D2',
-        'neutral': '#5F738C'
+        'neutral': '#5F738C',
+        'neutral-1000': '#1F2126',
+        'blue-1000': '#0172CB'
       },
       lineHeight:{
         '14':'3.5rem',

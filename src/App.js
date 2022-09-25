@@ -14,6 +14,7 @@ import AboutUs from './AboutUs/aboutUs'
 import './App.css';
 import Projectpage from "./Components/ProjectPage";
 import ProductDesignsPage from "./Pages/ProductDesignsPage";
+import AboutUsPage from "./Pages/AboutUsPage";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
       <Route path='social-media-management' element = {<SocialMediaPage />} />
       <Route path='brand-design' element = {<BrandDesign />} />
       <Route path="product-design" element = {<ProductDesign />}/>
-      <Route path="about-us" element ={<AboutUs />}/>
+      <Route path="about-us" element ={<AboutUsPage />}/>
     </Routes>
   );
 }
