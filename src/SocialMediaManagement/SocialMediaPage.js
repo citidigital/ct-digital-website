@@ -29,9 +29,8 @@ const SocialMediaPage = () => {
     return (
         <div className="SocialMediaPage">
             <Header />
-
             <div>
-                <img src={RectangleSM} alt="Social Media"/>
+                <img src={RectangleSM} alt="Social Media" className="w-full"/>
             </div>
             
             <section className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5 projects relative py-16">
