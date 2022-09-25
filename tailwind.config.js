@@ -71,6 +71,7 @@ module.exports = {
         'secondary2': '#00B8DE',
         'popColor1': '#DCD6CF',
         'popColor2': '#F7E2D2',
+        'neutral': '#5F738C'
       },
       lineHeight:{
         '14':'3.5rem',

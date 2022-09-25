@@ -25,8 +25,8 @@ const ProductDesignsPage = () => {
                     </div>
                     
                 </div>
-                {selectedTab == 1 ? null : <ProjectGallery />}
-                {selectedTab == 3 ? null : <UIDesignPage />}
+                {selectedTab == 1 ? <UIDesignPage /> : null}
+                {selectedTab == 2 ? <ProjectGallery /> : null}
             </section>
 
             <Footer />

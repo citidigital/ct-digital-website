@@ -1,6 +1,10 @@
 import React, {useState} from "react";
+import { Link } from "react-router-dom";
 import BreadCrumb from "../assets/BreadCrumb";
 import Logo from "../assets/Logo"
+import {ReactComponent as AngleArrowDown} from '../assets/AngleArrowDown.svg';
+import Popup from 'reactjs-popup';
+import { customModalStyles } from "../utils/customStyles";
 
 const Header = () => {
   const [showMenuTray, setShowMenuTray] = useState(false);
@@ -11,9 +15,9 @@ const Header = () => {
       <div className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5">
         <div className="flex justify-between items-center py-4 md:w-9/10 lg:w-8/10 mx-auto">
           <div className="hidden md:flex justify-start md:w-3/10 lg:w-1/2">
-            <a href="#">
+            <Link to="/">
               <Logo />
-            </a>
+            </Link>
           </div>
           <div className="flex md:hidden justify-start items-center">
             <div className="mr-5">
@@ -25,10 +29,46 @@ const Header = () => {
           </div>
           <div className="hidden md:flex justify-between md:w-7/10 lg:w-1/2 items-center">
             <div>
-              <nav className="space-x-8 text-grayish-blue mx-4">
-                <a href="#" className="text-base font-medium hover:text-gray-900 font-normal"> About us </a>
-                <a href="#" className="text-base font-medium hover:text-gray-900 font-normal"> What we do </a>
-                <a href="#" className="text-base font-medium hover:text-gray-900 font-normal"> Projects </a>
+              <nav className="flex space-x-8 text-grayish-blue mx-4">
+                <Popup trigger={
+                  <div to="#" className="text-base font-medium hover:text-gray-900 flex items-center cursor-pointer"> <p className="mr-3">About Us</p> <AngleArrowDown /> </div>
+                } modal overlayStyle={{background: 'none'}} contentStyle={customModalStyles.content}>
+                  <div>
+                    <Link to={"/about-us"} className="border-none mb-6 block focus-visible:border-none">
+                      <p className="text-grayish-blue font-bold">Overview</p>
+                      <p className="text-neutral text-sm">Our Mission, Vision and Values</p>
+                    </Link>
+                    <Link to={"/product-design"} className="border-none mb-6 block focus-visible:border-none">
+                      <p className="text-grayish-blue font-bold">Our Team</p>
+                      <p className="text-neutral text-sm">Meet the winning team</p>
+                    </Link>
+                  </div>
+                </Popup>
+                <Popup trigger={
+                  <div to="#" className="text-base font-medium hover:text-gray-900 flex items-center cursor-pointer"> <p className="mr-3">What we do</p> <AngleArrowDown /> </div>
+                } modal overlayStyle={{background: 'none'}} contentStyle={customModalStyles.content}>
+                  <div>
+                    <Link to={"/brand-design"} className="border-none mb-6 block focus-visible:border-none">
+                      <p className="text-grayish-blue font-bold">Brand and Mulitmedia </p>
+                      <p className="text-neutral text-sm">Brand Design Services</p>
+                    </Link>
+                    <Link to={"/product-design"} className="border-none mb-6 block focus-visible:border-none">
+                      <p className="text-grayish-blue font-bold">Product Design</p>
+                      <p className="text-neutral text-sm">UI/UX Design and Research Services</p>
+                    </Link>
+                    <Link to={"/product-development"} className="border-none mb-6 block focus-visible:border-none">
+                      <p className="text-grayish-blue font-bold">Product Development </p>
+                      <p className="text-neutral text-sm">Frontend and Backend Development</p>
+                    </Link>
+                    <Link to={"/social-media-management"} className="border-none mb-6 block focus-visible:border-none">
+                      <p className="text-grayish-blue font-bold">Social Media Managment </p>
+                      <p className="text-neutral text-sm">Social media managment Service</p>
+                    </Link>
+                  </div>
+                </Popup>
+
+                
+                <Link to="#" className="text-base font-medium hover:text-gray-900 font-normal"> Projects </Link>
               </nav>
             </div>
             <div>
