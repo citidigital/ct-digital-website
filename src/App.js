@@ -15,7 +15,6 @@ import './App.css';
 import Projectpage from "./Components/ProjectPage";
 import ProductDesignsPage from "./Pages/ProductDesignsPage";
 
-
 function App() {
   return (
     <Routes>
