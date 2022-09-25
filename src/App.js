@@ -9,12 +9,11 @@ import BrandDesign from './BrandDesign/BrandDesign'
 import ProductDesign from "./ProductDesign/ProductDesign";
 
 import LandingPage from './LandingPage/LandingPage'
-
+import AboutUs from './AboutUs/aboutUs'
 
 import './App.css';
 import Projectpage from "./Components/ProjectPage";
 import ProductDesignsPage from "./Pages/ProductDesignsPage";
-
 
 function App() {
   return (
@@ -26,6 +25,7 @@ function App() {
       <Route path='social-media-management' element = {<SocialMediaPage />} />
       <Route path='brand-design' element = {<BrandDesign />} />
       <Route path="product-design" element = {<ProductDesign />}/>
+      <Route path="about-us" element ={<AboutUs />}/>
     </Routes>
   );
 }
