@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
+import { Link, useParams } from "react-router-dom";
 
 import DesignHero from '../assets/Images/design_hero.jpeg'
 
@@ -8,7 +9,9 @@ import ProjectGallery from "./ProjectGallery";
 import UIDesignPage from "./UIDesignPage";
 
 const ProductDesignsPage = () => {
-    const [selectedTab, setSelectedTab] = useState(1);
+    const params = useParams();
+    const {tabId} = params;
+
     return (
         <div className="productDevelopment">
             <Header />
@@ -18,15 +21,15 @@ const ProductDesignsPage = () => {
             </div>
             
             <section className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5 projects relative py-10">
-                <div className="felx text-center w-full">
-                    <div className="inline-block bg-verylight-blue rounded-md">
-                        <button class={`rounded-md ${selectedTab == 1 ? 'bg-newport-blue text-white' : 'bg-transparent text-black'} px-5 py-3 w-38 leading-5`} onClick={() => setSelectedTab(1)}>UI Design</button>
-                        <button class={`rounded-md ${selectedTab == 2 ? 'bg-newport-blue text-white' : 'bg-transparent text-black'} px-5 py-3 w-38 leading-5`} onClick={() => setSelectedTab(2)}>Brand Design</button>
+                <div className="text-center w-full flex justify-center">
+                    <div className="flex bg-verylight-blue rounded-md h-12 items-center w-fit">
+                        <Link to={'/designs/1'} class={`rounded-md ${tabId == 1 ? 'bg-newport-blue text-white' : 'bg-transparent text-black'} px-5 py-3 w-38 leading-5`}>UI Design</Link>
+                        <Link to={'/designs/2'} class={`rounded-md ${tabId == 2 ? 'bg-newport-blue text-white' : 'bg-transparent text-black'} px-5 py-3 w-38 leading-5`}>Brand Design</Link>
                     </div>
                     
                 </div>
-                {selectedTab == 1 ? <UIDesignPage /> : null}
-                {selectedTab == 2 ? <ProjectGallery /> : null}
+                {tabId == 1 ? <UIDesignPage /> : null}
+                {tabId == 2 ? <ProjectGallery /> : null}
             </section>
 
             <Footer />

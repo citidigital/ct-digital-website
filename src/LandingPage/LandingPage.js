@@ -28,7 +28,7 @@ import InnovativeImageThree from './images/InnovativeImageThree.jpg';
 import ProjectOne from './images/ProjectOne.jpg';
 import ProjectTwo from './images/ProjectTwo.jpg';
 import ProjectThree from './images/ProjectThree.jpg';
-import ProjectFour from './images/ProjectFour.jpg';
+import ProjectFour from './images/ProjectFour.png';
 
 import CreatingOne from './images/CreatingOne.jpg'
 import CreatingTwo from './images/CreatingTwo.jpg'
@@ -210,7 +210,7 @@ const LandingPage = () => {
                     <div className="flex flex-nowrap overflow-scroll my-12 slide">
                         {projects.map(
                             (project, index) => <div className="mr-10 last:mr-0 project relative" key={index}>
-                                <img src={project.image_url} alt={`Project ${index + 1}`} />
+                                <img src={project.image_url} alt={`Project ${index + 1}`} className="w-full h-full" />
                                 <div className="overlay absolute bg-red-500 opacity-0 hover:opacity-100 top-0 left-0 w-full h-full rounded-lg shadow text-center">
                                     <div className="py-24 px-12">
                                         <p className="text-white font-bold text-2xl">{project.title}</p>

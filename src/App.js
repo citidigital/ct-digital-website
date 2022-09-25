@@ -9,7 +9,7 @@ import BrandDesign from './BrandDesign/BrandDesign'
 import ProductDesign from "./ProductDesign/ProductDesign";
 
 import LandingPage from './LandingPage/LandingPage'
-import AboutUs from './AboutUs/aboutUs'
+import AboutUs from './AboutUs/AboutUs'
 
 import './App.css';
 import Projectpage from "./Components/ProjectPage";
@@ -22,11 +22,11 @@ function App() {
       <Route path="" element = {<LandingPage/>} />
       <Route path='product-development' element = {<ProductDevelopment />} />
       <Route path='product-page' element = {<Projectpage />} />
-      <Route path='designs' element = {<ProductDesignsPage />} />
+      <Route path='designs/:tabId' element = {<ProductDesignsPage />} />
       <Route path='social-media-management' element = {<SocialMediaPage />} />
       <Route path='brand-design' element = {<BrandDesign />} />
       <Route path="product-design" element = {<ProductDesign />}/>
-      <Route path="about-us" element ={<AboutUsPage />}/>
+      <Route path="about-us/:tabId" element ={<AboutUsPage />}/>
     </Routes>
   );
 }

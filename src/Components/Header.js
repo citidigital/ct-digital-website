@@ -34,18 +34,18 @@ const Header = () => {
                   <div to="#" className="text-base font-medium hover:text-gray-900 flex items-center cursor-pointer"> <p className="mr-3">About Us</p> <AngleArrowDown /> </div>
                 } modal overlayStyle={{background: 'none'}} contentStyle={customModalStyles.content}>
                   <div>
-                    <Link to={"/about-us"} className="border-none mb-6 block focus-visible:border-none">
+                    <Link to={"/about-us/1"} className="border-none mb-6 block focus-visible:border-none">
                       <p className="text-grayish-blue font-bold">Overview</p>
                       <p className="text-neutral text-sm">Our Mission, Vision and Values</p>
                     </Link>
-                    <Link to={"/product-design"} className="border-none mb-6 block focus-visible:border-none">
+                    <Link to={"/about-us/2"} className="border-none mb-6 block focus-visible:border-none">
                       <p className="text-grayish-blue font-bold">Our Team</p>
                       <p className="text-neutral text-sm">Meet the winning team</p>
                     </Link>
                   </div>
                 </Popup>
                 <Popup trigger={
-                  <div to="#" className="text-base font-medium hover:text-gray-900 flex items-center cursor-pointer"> <p className="mr-3">What we do</p> <AngleArrowDown /> </div>
+                  <div className="text-base font-medium hover:text-gray-900 flex items-center cursor-pointer"> <p className="mr-3">What we do</p> <AngleArrowDown /> </div>
                 } modal overlayStyle={{background: 'none'}} contentStyle={customModalStyles.content}>
                   <div>
                     <Link to={"/brand-design"} className="border-none mb-6 block focus-visible:border-none">

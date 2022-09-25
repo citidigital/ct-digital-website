@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import AboutUs from "../AboutUs/aboutUs";
+import { Link, useParams } from "react-router-dom";
+import AboutUs from "../AboutUs/AboutUs";
 
 import DesignHero from '../assets/Images/design_hero.jpeg'
 
@@ -9,7 +10,9 @@ import ProjectGallery from "./ProjectGallery";
 import UIDesignPage from "./UIDesignPage";
 
 const AboutUsPage = () => {
-    const [selectedTab, setSelectedTab] = useState(1);
+    const params = useParams();
+    const {tabId = 1} = params;
+    const [selectedTab, setSelectedTab] = useState(tabId);
     return (
         <div className="about-us">
             <Header />
@@ -18,13 +21,13 @@ const AboutUsPage = () => {
                 <div className="w-full bg-gray-100">
                     <div className="max-w-layout mx-auto">
                         <div className="tabs flex w-full mb-6 md:w-9/10 lg:w-8/10 mx-auto pt-4">
-                            <button className={`${selectedTab == 1 ? 'text-blue-1000 active-tab' : 'bg-transparent mb-3 text-neutral-1000'} px-5 w-38 leading-5 font-semibold`} onClick={() => setSelectedTab(1)}>Overview</button>
-                            <button className={`${selectedTab == 2 ? 'text-blue-1000 active-tab' : 'bg-transparent mb-3 text-neutral-1000'} px-5 w-38 leading-5 font-semibold`} onClick={() => setSelectedTab(2)}>Our Team</button>
+                            <Link to={'/about-us/1'} className={`${tabId == 1 ? 'text-blue-1000 active-tab' : 'bg-transparent mb-3 text-neutral-1000'} px-5 leading-5 font-semibold`}>Overview</Link>
+                            <Link to={'/about-us/2'} className={`${tabId == 2 ? 'text-blue-1000 active-tab' : 'bg-transparent mb-3 text-neutral-1000'} px-5 leading-5 font-semibold`}>Our Team</Link>
                         </div>
                         
                     </div>
                 </div>
-                {selectedTab == 1 ? <AboutUs /> : null}
+                {tabId == 1 ? <AboutUs /> : null}
                 {/* {selectedTab == 2 ? <AboutUs /> : null} */}
             </section>
 
