@@ -234,7 +234,7 @@ const Projectpage = () => {
             </section>
 
             <section className='feedback bg-white relative md:pb-28 md:pt-16 py-10'>
-               <div className="min-h-hero md:flex items-center py-16 bg-dark-cyan">
+               <div className="md:flex items-center py-16 bg-dark-cyan">
                     <div className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5 text-center">
                         <p className="text-5xl font-medium text-cyan-blue mb-6">{`"${project.feedback}"`}</p>
                         <p className="text-base text-light-cyan">{`- ${project.owner.name} (${project.owner.role})`}</p>
