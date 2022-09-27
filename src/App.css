@@ -146,6 +146,10 @@ section.desktop-mockup {
   margin-top: 8px;
 }
 
+section.consultation-prompt {
+  background: linear-gradient(90deg, #F3F5F6 -7.43%, #E1E6ED 122.29%);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
