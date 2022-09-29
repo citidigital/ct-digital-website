@@ -2,15 +2,10 @@ import React from "react";
 
 import BackgroundIllustration from "../assets/background-illustration2.svg";
 
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
-
-import BookConsult from "../Components/BookConsult";
-
-import Excellence from './images/Excellence.jpg';
-import Innovation from './images/Innovation.jpg';
-import Pushing from './images/Pushing.jpg';
-import DesigningFutures from './images/DesigningFutures.png'
+import Excellence from '../assets/Excellence.jpg';
+import Innovation from '../assets/Innovation.jpg';
+import Pushing from '../assets/Pushing.jpg';
+import DesigningFutures from '../assets/DesigningFutures.png'
 import { applyWhiteSpace } from "../utils/helper";
 import BookConsultationPopup from "../Components/BookConsulationPopup";
 

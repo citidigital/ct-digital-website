@@ -3,13 +3,12 @@ import {
   Route,
 } from "react-router-dom";
 
-import ProductDevelopment from './ProductDevelopment/ProductDevelopment';
-import SocialMediaPage from './SocialMediaManagement/SocialMediaPage';
-import BrandDesign from './BrandDesign/BrandDesign'
-import ProductDesign from "./ProductDesign/ProductDesign";
+import ProductDevelopment from './Pages/ProductDevelopment';
+import SocialMediaPage from './Pages/SocialMediaPage';
+import BrandDesign from './Pages/BrandDesign'
+import ProductDesign from "./Pages/ProductDesign";
 
-import LandingPage from './LandingPage/LandingPage'
-import AboutUs from './AboutUs/AboutUs'
+import LandingPage from './Pages/LandingPage'
 
 import './App.css';
 import Projectpage from "./Components/ProjectPage";

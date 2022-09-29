@@ -1,18 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link, useParams } from "react-router-dom";
-import AboutUs from "../AboutUs/AboutUs";
-
-import DesignHero from '../assets/Images/design_hero.jpeg'
+import AboutUs from "./AboutUs";
 
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
-import ProjectGallery from "./ProjectGallery";
-import UIDesignPage from "./UIDesignPage";
 
 const AboutUsPage = () => {
     const params = useParams();
     const {tabId = 1} = params;
-    const [selectedTab, setSelectedTab] = useState(tabId);
     return (
         <div className="about-us">
             <Header />
