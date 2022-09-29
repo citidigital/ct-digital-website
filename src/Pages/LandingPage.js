@@ -60,7 +60,7 @@ const LandingPage = () => {
                                 </p>
                             </div>
                             <div className="md:mb-0 mb-14 md:text-left text-center">
-                                <button class="rounded-md bg-newport-blue text-white px-5 py-4 w-button-width leading-5">Book a Consultation</button>
+                                <button className="rounded-md bg-newport-blue text-white px-5 py-4 w-button-width leading-5">Book a Consultation</button>
                             </div>
 
                             <div className="hidden md:block text-right w-8/10">
@@ -100,7 +100,7 @@ const LandingPage = () => {
                                     <p className="text-default-gray text-base md:text-lg leading-7 mb-8 text-center md:text-left">We provide our clients with unique user-centric products. By improving the product experience, we help generate leads and increase customer engagement and retention. 
                                     </p>
                                 <div className="md:mb-0 mb-14 md:text-left text-center">
-                                    <button class="rounded-md bg-newport-blue text-white px-5 py-4 w-button-width leading-5">Book a Consultation</button>
+                                    <button className="rounded-md bg-newport-blue text-white px-5 py-4 w-button-width leading-5">Book a Consultation</button>
                                 </div>
                             </div>
                         </div>
@@ -121,7 +121,7 @@ const LandingPage = () => {
                                 </p>
                             </div>
                             <div className="md:mb-0 mb-14 md:text-left text-center">
-                                <button class="rounded-md bg-newport-blue text-white px-5 py-4 w-button-width leading-5">Book a Consultation</button>
+                                <button className="rounded-md bg-newport-blue text-white px-5 py-4 w-button-width leading-5">Book a Consultation</button>
                             </div>
                         </div>
 
