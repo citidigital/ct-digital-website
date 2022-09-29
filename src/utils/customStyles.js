@@ -15,5 +15,11 @@ export const customModalStyles = {
         background: '#FFFFFF',
         boxShadow: '0px 16px 16px rgba(0, 0, 0, 0.12)',
         borderRadius: '16px',
+    },
+    bookConsulationPopupStyles: {
+        background: '#FFFFFF',
+        boxShadow: '0px 16px 16px rgba(0, 0, 0, 0.12)',
+        borderRadius: '16px',
+        paddingTop: '21px'
     }
 }

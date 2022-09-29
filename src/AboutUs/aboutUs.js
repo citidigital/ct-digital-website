@@ -12,6 +12,7 @@ import Innovation from './images/Innovation.jpg';
 import Pushing from './images/Pushing.jpg';
 import DesigningFutures from './images/DesigningFutures.png'
 import { applyWhiteSpace } from "../utils/helper";
+import BookConsultationPopup from "../Components/BookConsulationPopup";
 
 const AboutUs = () => {
     return (
@@ -112,7 +113,7 @@ const AboutUs = () => {
                         </div>
                         
                         <div className="text-center">
-                            <button class="rounded-md bg-newport-blue text-white px-5 py-4 w-button-width leading-5">Book a Consultation</button>
+                            <BookConsultationPopup />
                         </div>
                     </div>
                 </div> 

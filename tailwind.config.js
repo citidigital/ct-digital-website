@@ -35,6 +35,7 @@ module.exports = {
         '3/10':'30%',
         '3\.5/10':'35%',
         '4/10': '40%',
+        '4\.5/10': '45%',
         '5/10': '50%',
         '6/10': '60%',
         '7/10':'70%',
@@ -58,6 +59,7 @@ module.exports = {
         'gray-100': '#F3F4F6',
         'default-gray': '#374151',
         'primary-blue': '#072F40',
+        'blue-400': '#479FC8',
         'verylight-blue':'#F7FBFC',
         'blue1': '#CBF6FF',
         'link': '#40A9FF',
@@ -76,7 +78,10 @@ module.exports = {
         'popColor2': '#F7E2D2',
         'neutral': '#5F738C',
         'neutral-1000': '#1F2126',
-        'blue-1000': '#0172CB'
+        'blue-1000': '#0172CB',
+        'neutral-100': '#F9FBFC',
+        'neutral-600': '#848F9F',
+        'light-gray': '#E5E5E5'
       },
       lineHeight:{
         '14':'3.5rem',
