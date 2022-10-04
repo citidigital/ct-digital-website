@@ -1,4 +1,5 @@
 import React from "react";
+import { applyWhiteSpace } from "../utils/helper";
 
 const PageSection = ({position="left", Header, Paragraph, Image}) => {
     return (
@@ -10,7 +11,7 @@ const PageSection = ({position="left", Header, Paragraph, Image}) => {
                         <p className="text-3xl font-semibold text-primary-blue sm:text-3.5xl sm:leading-none max-w-lg mb-6 text-center md:text-left md:mt-0 mt-10">
                         {Header}
                         </p>
-                        <p className="text-default-gray text-base md:text-lg leading-7 md:text-left text-center mt-6">{Paragraph}</p>
+                        <p className="text-default-gray text-base md:text-lg leading-7 md:text-left text-center mt-6">{applyWhiteSpace(Paragraph)}</p>
                     </div>
                 </div>
             </div>

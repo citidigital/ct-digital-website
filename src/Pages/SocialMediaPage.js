@@ -15,8 +15,8 @@ const firstImageSection = {
     ImageComponent: <img src={SEOmanagement} alt="SEO management"/>,
 }
 const secondImageSection = {
-    header: 'Socia-Media Management',
-    paragraph: 'Collaborating with influencers, volunteering in the community, and keeping an eye on your internet presence are all important.<br>We aim to analyze social media users and tailor a plan for them, as well as developing and distributing content for social media profiles and monitoring online interactions.',
+    header: 'Social Media Management',
+    paragraph: 'Collaborating with influencers, volunteering in the community, and keeping an eye on your internet presence are all important.\nWe aim to analyze social media users and tailor a plan for them, as well as developing and distributing content for social media profiles and monitoring online interactions.',
     ImageComponent: <img src={SocialMediaManagement} alt="Social Media Management"/>,
 }
 const thirdImageSection = {

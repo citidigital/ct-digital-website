@@ -56,7 +56,7 @@ const LandingPage = () => {
                                 <p className="text-3xl font-bold text-primary-blue sm:text-4xl sm:leading-none max-w-lg mb-6 text-center md:text-left">
                                 A Crew of Creative Doers
                                 </p>
-                                <p className="text-default-gray text-base md:text-lg leading-7 mb-8 text-center md:text-left">CTdigital is a global digital team that brings together design and technology to create digital products and experiences for brands across the globe. We collaborate with forward-thinking brands to transform digital presence into empowering and efficient experiences.
+                                <p className="text-default-gray text-base md:text-lg leading-7 mb-8 text-center md:text-left">CT Digital is a global digital team that brings together design and technology to create digital products and experiences for brands across the globe. We collaborate with forward-thinking brands to transform digital presence into empowering and efficient experiences.
                                 </p>
                             </div>
                             <div className="md:mb-0 mb-14 md:text-left text-center">
@@ -148,7 +148,7 @@ const LandingPage = () => {
                         <p className="text-3xl font-bold text-primary-blue sm:text-3.5xl sm:leading-none mb-6 text-center md:text-left">
                         Our Favorite Projects
                         </p>
-                        <Link to="projects" className="text-link text-base">See All Projects</Link>
+                        <Link to="designs/1" className="text-link text-base">See All Projects</Link>
                     </div>
                     
                     <div className="flex flex-nowrap overflow-scroll my-12 slide">

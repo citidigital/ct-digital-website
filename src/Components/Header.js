@@ -45,7 +45,7 @@ const Header = () => {
                   </div>
                 </Popup>
                 <Popup trigger={
-                  <div className="text-base font-medium hover:text-gray-900 flex items-center cursor-pointer"> <p className="mr-3">What we do</p> <AngleArrowDown /> </div>
+                  <div className="text-base font-medium hover:text-gray-900 flex items-center cursor-pointer"> <p className="mr-3">What We Do</p> <AngleArrowDown /> </div>
                 } modal overlayStyle={{background: 'none'}} contentStyle={customModalStyles.content}>
                   <div>
                     <Link to={"/brand-design"} className="border-none mb-6 block focus-visible:border-none">
@@ -62,13 +62,13 @@ const Header = () => {
                     </Link>
                     <Link to={"/social-media-management"} className="border-none mb-6 block focus-visible:border-none">
                       <p className="text-grayish-blue font-bold">Social Media Managment </p>
-                      <p className="text-neutral text-sm">Social media managment Service</p>
+                      <p className="text-neutral text-sm">Social Media Managment Service</p>
                     </Link>
                   </div>
                 </Popup>
 
                 
-                <Link to="#" className="text-base font-medium hover:text-gray-900 font-normal"> Projects </Link>
+                <Link to="designs/1" className="text-base font-medium hover:text-gray-900 font-normal"> Projects </Link>
               </nav>
             </div>
             <div>
