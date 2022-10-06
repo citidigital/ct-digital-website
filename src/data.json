@@ -73,6 +73,60 @@
             }
         ],
         "mockups": {
+            "desktop": "/images/PureMinutes/desktopmockups.png",
+            "tablet": "/images/PureMinutes/tabmockups.png",
+            "mobile": "/images/PureMinutes/smartmockups.png"
+        },
+        "feedback": "I genuinely want to work with you again.",
+        "owner": {
+            "name": "Illara De Plano",
+            "role": "Independent Contractor for  Pure MInutes"
+        },
+        "colors": [
+            {
+                "name": "Primary Blue",
+                "code": "#063C5C",
+                "alias": "primary"
+            },
+            {
+                "name": "Secondary Blue",
+                "code": "#1D8BCC",
+                "alias": "secondary"
+            },
+            {
+                "name": "popColor",
+                "code": "#DCD6CF",
+                "alias": "popColor"
+            }
+        ],
+        "liveWebsite": "https://wgd-frontend.vercel.app/"
+      },
+      {
+        "id": 1,
+        "name": "Quantum Clinic",
+        "description": "Quantum Clinic was conceived as a spa to not just for your body but also for your DNA focusing on vibrations and signals to be sent to the body \n \n In 2020 our founder, Dr. Katelyn Dowling decided to operationalize love. After working in various community mental health settings, treating addictions, anxiety, depression, and trauma, she realized that deep and lasting change actually is possible. So she took all the pieces from her background in clinical psychology and multicultural community psycology, along with her passion for ecology, art, technology, and spacetime to the next level. \n \n The Quantum Clinic, is dedicated to maintaining the highest standards of ethical practice and privacy. Our services are delivered in a tranquil environment with space to breathe freely and relax in your body.",
+        "objective": "The goal of creating this website is to have a platform where users can come to book sessions and a platform for the clinic to manage bookings ",
+        "challenges": [
+            {
+                "title": "Data Visualisation & Synchronisation",
+                "description": "The website data visualization for the admin portal to view user data and schedules. By this feature, users can prioritize and plan in line with the vision for the portal. Synchronizing the bookings on the user end with that of the call-in clients which are manually entered on the portal"
+            },
+            {
+                "title": "Quantum Clinic Design Style",
+                "description": "Quantum Clinic design style is set up to be more contemporary than mordern. We had to follow the already set design style which was limiting to the creativity. "
+            }
+        ],
+        "solutions": [
+            {
+                "title": "Calendar View",
+                "description": "This feature gives the admin a calendar view of all the bookings so that it shows users data, time and can admin can easily cancel in the event that it's required or requested."
+            },
+            {
+                "title": "Platform for Clients",
+                "description": "A website was built for clients to be able to create, view and manage their bookings effectively "
+            }
+        ],
+        "mockups": {
             "desktop": "/images/QuantumClinic/desktopmockups.png",
             "tablet": "/images/QuantumClinic/tabmockups.png",
             "mobile": "/images/QuantumClinic/smartmockups.png"
@@ -100,9 +154,6 @@
             }
         ],
         "liveWebsite": "https://wgd-frontend.vercel.app/"
-      },
-      {
-
       }
     ]
   }
