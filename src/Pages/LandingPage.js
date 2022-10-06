@@ -21,21 +21,25 @@ import { Link } from "react-router-dom";
 const LandingPage = () => {
     const projects = [
         {
+            id: 1,
             title: 'Quantum Clinic',
             summary: 'Quantum Clinic was conceived as a spa to not just for your body but also for your DNA...',
             image_url: ProjectOne
         },
         {
+            id: 2,
             title: 'Live Draws',
             summary: 'Quantum Clinic was conceived as a spa to not just for your body but also for your DNA...',
             image_url: ProjectTwo
         },
         {
+            id: 3,
             title: 'Pure Minutes',
             summary: 'Quantum Clinic was conceived as a spa to not just for your body but also for your DNA...',
             image_url: ProjectThree
         },
         {
+            id: 4,
             title: 'Miss Eko',
             summary: 'Quantum Clinic was conceived as a spa to not just for your body but also for your DNA...',
             image_url: ProjectFour
@@ -143,7 +147,7 @@ const LandingPage = () => {
 
             <section className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5 projects relative">
                 <img src={Polygon1} alt="Polygon 1" className="polygon-one hidden md:block absolute"/>
-                <div className="md:ml-1/10 relative z-10">
+                <div className="md:w-9/10 lg:w-8/10 mx-auto relative z-10">
                     <div className="md:flex justify-between md:mr-1/10">
                         <p className="text-3xl font-bold text-primary-blue sm:text-3.5xl sm:leading-none mb-6 text-center md:text-left">
                         Our Favorite Projects
@@ -161,7 +165,7 @@ const LandingPage = () => {
                                         <p className="text-white mt-4 mb-10 text-lg">
                                         {project.summary}
                                         </p>
-                                        <Link to={`projects/${index+1}`} className="border bg-transparent text-white py-2.5 px-9 rounded-md">View Project</Link>
+                                        <Link to={`project/${project.id}`} className="border bg-transparent text-white py-2.5 px-9 rounded-md">View Project</Link>
                                     </div>
                                 </div>
                             </div>
@@ -170,6 +174,7 @@ const LandingPage = () => {
                 </div>
                 <img src={Polygon2} alt="Polygon 2" className="ploygon-two hidden md:block absolute"/>
             </section>
+
             <Footer />
         </div>
     );

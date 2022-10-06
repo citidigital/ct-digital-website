@@ -20,7 +20,7 @@ function App() {
     <Routes>
       <Route path="" element = {<LandingPage/>} />
       <Route path='product-development' element = {<ProductDevelopment />} />
-      <Route path='product-page' element = {<Projectpage />} />
+      <Route path='project/:projectId' element = {<Projectpage />} />
       <Route path='designs/:tabId' element = {<ProductDesignsPage />} />
       <Route path='social-media-management' element = {<SocialMediaPage />} />
       <Route path='brand-design' element = {<BrandDesign />} />

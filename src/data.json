@@ -1,0 +1,108 @@
+{
+    "resources": [
+      {
+        "title": "Find me on Twitter",
+        "link": "https://twitter.com/kendalmintcode",
+        "imageUrl": "https://placeimg.com/300/300/any"
+      },
+      {
+        "title": "Welcome to Ark Labs",
+        "link": "https://ark-labs.co.uk",
+        "imageUrl": "https://placeimg.com/300/300/animals"
+      },
+      {
+        "title": "Some sort of third title",
+        "link": "https://twitter.com/kendalmintcode",
+        "imageUrl": "https://placeimg.com/300/300/architecture"
+      },
+      {
+        "title": "A personal site perhaps?",
+        "link": "https://robkendal.co.uk",
+        "imageUrl": "https://placeimg.com/300/300/nature"
+      },
+      {
+        "title": "Super item number five",
+        "link": "https://twitter.com/kendalmintcode",
+        "imageUrl": "https://placeimg.com/300/300/people"
+      },
+      {
+        "title": "Super item number six",
+        "link": "https://twitter.com/kendalmintcode",
+        "imageUrl": "https://placeimg.com/300/300/tech"
+      },
+      {
+        "title": "Super item number seven",
+        "link": "https://twitter.com/kendalmintcode",
+        "imageUrl": "https://placeimg.com/300/300/animals"
+      },
+      {
+        "title": "Super item number eight",
+        "link": "https://twitter.com/kendalmintcode",
+        "imageUrl": "https://placeimg.com/300/300/people"
+      },
+      {
+        "title": "Super item number the last",
+        "link": "https://twitter.com/kendalmintcode",
+        "imageUrl": "https://placeimg.com/300/300/tech"
+      }
+    ],
+    "projects": [
+      {
+        "id": 3,
+        "name": "Pure Minutes",
+        "description": "Pure Minutes is a leading provider of international prepaid calling and Top Up mobile phone payments. \n \n Pure Minutes makes international calling affordable and easy, eliminating the need for expensive international mobile plans and deceptive calling cards.\n\nWith Pure Minutes, subscribers are guaranteed low rates for all destinations - no gimmicks, hassles, or fine print! With  Pure Minutes you can keep track of your friends and families phone accounts, manage  bills, add credit, and even earn free credit towards phone calls. Sign up is free\n\n When you sign up  you will receive a referral code on your profile to send to friends and family. Each person who signs up after you using your code will unlock bonus minutes and other rewards for both parties!",
+        "objective": "The goal of creating this redesign of the website was to build a better experience and interface to provide easy navigation for new and existing users",
+        "challenges": [
+            {
+                "title": "Live Customer Data",
+                "description": "In order to be able to build a better and imporved experience for the users we need access to live customer data. This will serve as a guide as to what the users use the most and what they will like to access more freely. This typically feeds into the product research process"
+            },
+            {
+                "title": "Access To Source Code",
+                "description": "During the implimentation of the resdesign, the absense of documentation gave rise to a limitation of migrating the code to the exisiting code base"
+            }
+        ],
+        "solutions": [
+            {
+                "title": "Card Sorting",
+                "description": "In order to prioritise the user needs and aid our UX research process we has the features listed and had potential users/Users arrange features according to priority"
+            },
+            {
+                "title": "Improved Dashboard",
+                "description": "The improvement of the dashboard was tested after design using the prototype with users to assertain if it aided smoother navigation. Did it? Yes it did!"
+            }
+        ],
+        "mockups": {
+            "desktop": "/images/QuantumClinic/desktopmockups.png",
+            "tablet": "/images/QuantumClinic/tabmockups.png",
+            "mobile": "/images/QuantumClinic/smartmockups.png"
+        },
+        "feedback": "I genuinely want to work with you again.",
+        "owner": {
+            "name": "Illara De Plano",
+            "role": "Independent Contractor for  Pure MInutes"
+        },
+        "colors": [
+            {
+                "name": "Primary Blue",
+                "code": "#063C5C",
+                "alias": "primary"
+            },
+            {
+                "name": "Secondary Blue",
+                "code": "#1D8BCC",
+                "alias": "secondary"
+            },
+            {
+                "name": "popColor",
+                "code": "#DCD6CF",
+                "alias": "popColor"
+            }
+        ]
+      },
+      {
+
+      }
+    ]
+  }
+  

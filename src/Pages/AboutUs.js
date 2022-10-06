@@ -94,7 +94,7 @@ const AboutUs = () => {
                 </div>
             </section>
 
-            <section className='consultation-prompt py-10 md:pt-22 md:pb-16'>
+            <section className='consultation-prompt py-10 md:pt-22 md:pb-16 md:mb-18 mb-10'>
                <div className="max-w-layout mx-auto">
                     <div className="md:w-9/10 lg:w-8/10 md:flex items-center justify-between mx-auto relative md:pl-2 px-4.5">
                         <div className="md:w-3/10">
