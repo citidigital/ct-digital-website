@@ -98,7 +98,8 @@
                 "code": "#DCD6CF",
                 "alias": "popColor"
             }
-        ]
+        ],
+        "liveWebsite": "https://wgd-frontend.vercel.app/"
       },
       {
 

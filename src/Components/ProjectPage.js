@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import Header from './Header';
 import {ReactComponent as PaperPlaneRight} from '../assets/PaperPlaneRight.svg';
 import Footer from './Footer';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import data from '../data.json'
 
 const Projectpage = () => {
@@ -75,8 +75,10 @@ const Projectpage = () => {
                                             return <p key={key}>{i}</p>;
                                         })}</div>
 
-                                        <div className='text-center'>
-                                            <button class="rounded-md bg-newport-blue text-white px-9 py-4">View Live Website</button>
+                                        <div className='md:text-left text-center'>
+                                            <a href={project.liveWebsite} 
+                                            className="rounded-md bg-newport-blue text-white px-9 py-4"
+                                            rel='noreferrer' target='_blank'>View Live Website</a>
                                         </div>
                                     </div>
                                 </div>
@@ -186,7 +188,7 @@ const Projectpage = () => {
                                 </div>
                             </div>
                             <div className='text-center md:mb-12 mb-10'>
-                                <button className="rounded-md bg-newport-blue text-white px-9 py-4">View Live Website</button>
+                                <a href={project.liveWebsite} target='_blank' rel='noreferrer' className="rounded-md bg-newport-blue text-white px-9 py-4">View Live Website</a>
                             </div>
                         </div>
                     </section>
