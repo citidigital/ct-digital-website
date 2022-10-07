@@ -5,6 +5,7 @@ import EllipseGroup from '../assets/imagesLanding/EllipseGroup.svg';
 import DoubleEllipseGroup from '../assets/DoubleEllipseGroup.svg';
 import Polygon1 from '../assets/Polygon1.svg';
 import Polygon2 from '../assets/Polygon2.svg';
+import {ReactComponent as WebProgramming} from '../assets/web-programming.svg';
 
 import HeroVideo from '../assets/Images/hero_video.jpeg';
 import InnovativeProductGroup from '../assets/Images/innovative_product_group.png';
@@ -45,6 +46,26 @@ const LandingPage = () => {
             image_url: ProjectFour
         }
     ];
+
+    const solutions = [
+        {
+            title: "UI/UX Design",
+            description: "Interactions and effective communication are encouraged by our user-friendly design."
+        },
+        {
+            title: "Brand Design",
+            description: "Outstanding designs and logos that will showcase your brand's beauty and truth."
+        },
+        {
+            title: "Web Development",
+            description: "Websites that are simple to navigate and have a sense of creativity and confidence."
+        },
+        {
+            title: "SM Managment",
+            description: "A strategic voice that represents your distinctive qualities across all social and digital channels."
+        }
+    ];
+
     return(
         <div className="landingPage">
             <Header />
@@ -83,6 +104,32 @@ const LandingPage = () => {
 
                     </div>
                 </div>
+            </section>
+
+            <section className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5 projects relative my-20">
+                <img src={Polygon1} alt="Polygon 1" className="polygon-one hidden md:block absolute"/>
+                <div className="md:w-9/10 lg:w-8/10 mx-auto relative z-10">
+                    <div className="text-center">
+                        <p className="text-3xl font-bold text-primary-blue sm:text-3.5xl sm:leading-none mb-6">
+                        Building the Greatest Solutions
+                        </p>
+                        <p className="text-default-gray text-base md:text-lg leading-7 mb-10 md:mb-12 md:mx-10">Results matter a lot, this in each step of the product lifecycle our team of experts are fully active to help you launch your product, brand and ideas with a bang.
+                        </p>
+                    </div>
+                    
+                    <div className="flex flex-nowrap overflow-scroll my-9 slide overflow-y-hidden space-x-6">
+                        {solutions.map(
+                            (solution, index) => <div className="solution relative rounded-2xl bg-verylight-blue pb-6 pt-10 px-8 w-1/4" key={index}>
+                                <WebProgramming />
+                                <p className="text-xl font-extrabold text-primary-blue my-4">
+                                {solution.title}
+                                </p>
+                                <p className="text-default-gray text-base leading-6">{solution.description}</p>
+                            </div>
+                        )}
+                    </div>
+                </div>
+                <img src={Polygon2} alt="Polygon 2" className="ploygon-two hidden md:block absolute"/>
             </section>
 
             <section className="innovative-product md:py-15 md:flex items-center py-6">
@@ -155,7 +202,7 @@ const LandingPage = () => {
                         <Link to="designs/1" className="text-link text-base">See All Projects</Link>
                     </div>
                     
-                    <div className="flex flex-nowrap overflow-scroll my-12 slide">
+                    <div className="flex flex-nowrap overflow-y-hidden my-12 slide">
                         {projects.map(
                             (project, index) => <div className="mr-10 last:mr-0 project relative" key={index}>
                                 <img src={project.image_url} alt={`Project ${index + 1}`} className="w-full h-full" />
