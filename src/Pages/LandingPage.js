@@ -3,6 +3,9 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import EllipseGroup from '../assets/imagesLanding/EllipseGroup.svg';
 import DoubleEllipseGroup from '../assets/DoubleEllipseGroup.svg';
+import {ReactComponent as SmallPolygon1} from '../assets/SmallPolygon1.svg';
+import {ReactComponent as SmallEllipse} from '../assets/SmallEllipse.svg';
+import {ReactComponent as X} from '../assets/x.svg';
 import Polygon1 from '../assets/Polygon1.svg';
 import Polygon2 from '../assets/Polygon2.svg';
 import {ReactComponent as WebProgramming} from '../assets/web-programming.svg';
@@ -107,19 +110,34 @@ const LandingPage = () => {
             </section>
 
             <section className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5 projects relative my-20">
-                <img src={Polygon1} alt="Polygon 1" className="polygon-one hidden md:block absolute"/>
+                <span className="absolute left-72 top-28">
+                    <SmallPolygon1 />
+                </span>
+                <span className="absolute left-51/100 top-18">
+                    <SmallPolygon1 />
+                </span>
+                <span className="absolute right-24 top-30">
+                    <SmallEllipse />
+                </span>
+                <span className="absolute left-48 top-2">
+                    <SmallEllipse />
+                </span>
+                <span className="absolute left-34 bottom-1">
+                    <X />
+                </span>
+                
                 <div className="md:w-9/10 lg:w-8/10 mx-auto relative z-10">
                     <div className="text-center">
                         <p className="text-3xl font-bold text-primary-blue sm:text-3.5xl sm:leading-none mb-6">
                         Building the Greatest Solutions
                         </p>
-                        <p className="text-default-gray text-base md:text-lg leading-7 mb-10 md:mb-12 md:mx-10">Results matter a lot, this in each step of the product lifecycle our team of experts are fully active to help you launch your product, brand and ideas with a bang.
+                        <p className="text-default-gray text-base md:text-lg leading-6 mb-10 md:mb-8.5 md:mx-14">Results matter a lot, this in each step of the product lifecycle our team of experts are fully active to help you launch your product, brand and ideas with a bang.
                         </p>
                     </div>
                     
-                    <div className="flex flex-nowrap overflow-scroll my-9 slide overflow-y-hidden space-x-6">
+                    <div className="flex flex-nowrap overflow-scroll my-8.5 slide overflow-y-hidden space-x-6">
                         {solutions.map(
-                            (solution, index) => <div className="solution relative rounded-2xl bg-verylight-blue pb-6 pt-10 px-8 w-1/4" key={index}>
+                            (solution, index) => <div className="solution relative rounded-2xl bg-verylight-blue pb-6 pt-10 px-8" key={index}>
                                 <WebProgramming />
                                 <p className="text-xl font-extrabold text-primary-blue my-4">
                                 {solution.title}
@@ -129,7 +147,6 @@ const LandingPage = () => {
                         )}
                     </div>
                 </div>
-                <img src={Polygon2} alt="Polygon 2" className="ploygon-two hidden md:block absolute"/>
             </section>
 
             <section className="innovative-product md:py-15 md:flex items-center py-6">

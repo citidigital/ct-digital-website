@@ -19,7 +19,9 @@ module.exports = {
         '22': '5.5rem',
         '25': '6.5rem',
         '30': '7.5rem',
-        '5\.5': '1.375rem'
+        '34': '8.5rem',
+        '5\.5': '1.375rem',
+        '51/100': '51%'
       },
       width:{
         '828px':'828px',
@@ -99,7 +101,8 @@ module.exports = {
         '18': '4.5rem',
         '1/10': '10%',
         '2/10': '20%',
-        '7\.5': '1.875rem'
+        '7\.5': '1.875rem',
+        '8\.5': '2.125rem'
       },
       backgroundImage:{
         'lpBackground': "url('./LandingPage/lpBackground.svg')",
