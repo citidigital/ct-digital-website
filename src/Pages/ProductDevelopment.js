@@ -1,6 +1,6 @@
 import React from "react";
 
-import RectanglePD from '../assets/imagesPM/RectanglePD.jpg'
+import RectanglePD from '../assets/imagesPM/RectanglePD.jpg' 
 import WebDevelopment from '../assets/imagesPM/WebDevelopment.jpg'
 import AppDevelopment from '../assets/imagesPM/AppDevelopment.jpg'
 import WebManagement from '../assets/imagesPM/WebManagement.jpg'
@@ -29,7 +29,7 @@ const thirdImageSection = {
 
 const ProductDevelopment = () => {
     return (
-        <div className="productDevelopment">
+        <div className="product-development">
             <Header />
 
             <div>

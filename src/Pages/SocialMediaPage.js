@@ -27,7 +27,7 @@ const thirdImageSection = {
 
 const SocialMediaPage = () => {
     return (
-        <div className="SocialMediaPage">
+        <div className="social-media-page">
             <Header />
             <div>
                 <img src={RectangleSM} alt="Social Media" className="w-full"/>
