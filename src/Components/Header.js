@@ -68,7 +68,7 @@ const Header = () => {
                 </Popup>
 
                 
-                <Link to="designs/1" className="text-base font-medium hover:text-gray-900 font-normal"> Projects </Link>
+                <Link to={"/designs/1"} className="text-base hover:text-gray-900 font-normal"> Projects </Link>
               </nav>
             </div>
             <div>
