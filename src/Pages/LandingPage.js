@@ -126,7 +126,7 @@ const LandingPage = () => {
                     <X />
                 </span>
                 
-                <div className="md:w-9/10 lg:w-8/10 mx-auto relative z-10">
+                <div id="#services" className="md:w-9/10 lg:w-8/10 mx-auto relative z-10">
                     <div className="text-center">
                         <p className="text-3xl font-bold text-primary-blue sm:text-3.5xl sm:leading-none mb-6">
                         Building the Greatest Solutions
@@ -137,7 +137,7 @@ const LandingPage = () => {
                     
                     <div className="flex flex-nowrap overflow-scroll my-8.5 slide overflow-y-hidden space-x-6">
                         {solutions.map(
-                            (solution, index) => <div className="solution relative rounded-2xl bg-verylight-blue pb-6 pt-10 px-8" key={index}>
+                            (solution, index) => <div className="solution relative rounded-2xl bg-verylight-blue hover:bg-blue-400 pb-6 pt-10 px-8 service-card" key={index}>
                                 <WebProgramming />
                                 <p className="text-xl font-extrabold text-primary-blue my-4">
                                 {solution.title}
