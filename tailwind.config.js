@@ -11,6 +11,16 @@ module.exports = {
       '9/10':'90%',
       'layout': '1440px'
     },
+    borderWidth: {
+      '0\.5': '0.5px',
+      DEFAULT: '1px',
+      '0': '0',
+      '2': '2px',
+      '3': '3px',
+      '4': '4px',
+      '6': '6px',
+      '8': '8px'
+    },
     extend: {
       inset:{
         '196px':'196px',
@@ -32,7 +42,9 @@ module.exports = {
         '1132px':'1132',
   
         '1/10': '10%',
+        '1\.5/10':'15%',
         '2/10': '20%',
+        '2\.5/10':'25%',
         '2\.7/10': '27%',
         '3/10':'30%',
         '3\.5/10':'35%',
@@ -83,7 +95,9 @@ module.exports = {
         'blue-1000': '#0172CB',
         'neutral-100': '#F9FBFC',
         'neutral-600': '#848F9F',
-        'light-gray': '#E5E5E5'
+        'light-gray': '#E5E5E5',
+        'dark-gray': '#4B4B4B',
+        'darker-cyan': '#354052'
       },
       lineHeight:{
         '14':'3.5rem',
@@ -110,7 +124,7 @@ module.exports = {
       fontSize: {
         '3\.5xl': '2rem',
         '4\.5xl': '2.5rem',
-      }
+      },
     },
   },
   plugins: [],
