@@ -70,7 +70,7 @@ const LandingPage = () => {
     ];
 
     return(
-        <div className="landingPage">
+        <div className="landing-page">
             <Header />
             <section className="hero md:py-4 min-h-hero md:flex items-center py-6">
                 <div className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5">

@@ -3,8 +3,8 @@ import {
   Route,
 } from "react-router-dom";
 
-import ProductDevelopment from './Pages/ProductDevelopment';
-import SocialMediaPage from './Pages/SocialMediaPage';
+import ProductDevelopment from './Pages/ProductDevelopment'; 
+import SocialMediaPage from './Pages/SocialMediaPage'; 
 import BrandDesign from './Pages/BrandDesign'
 import ProductDesign from "./Pages/ProductDesign";
 

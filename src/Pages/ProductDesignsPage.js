@@ -13,7 +13,7 @@ const ProductDesignsPage = () => {
     const {tabId} = params;
 
     return (
-        <div className="productDevelopment">
+        <div className="product-development">
             <Header />
 
             <div>
