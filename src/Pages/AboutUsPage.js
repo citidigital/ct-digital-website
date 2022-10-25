@@ -2,8 +2,8 @@ import React from "react";
 import { Link, useParams } from "react-router-dom";
 import AboutUs from "./AboutUs";
 
-import Footer from "../Components/Footer";
-import Header from "../Components/Header";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 const AboutUsPage = () => {
     const params = useParams();

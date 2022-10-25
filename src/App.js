@@ -3,17 +3,17 @@ import {
   Route,
 } from "react-router-dom";
 
-import ProductDevelopment from './Pages/ProductDevelopment'; 
-import SocialMediaPage from './Pages/SocialMediaPage'; 
-import BrandDesign from './Pages/BrandDesign'
-import ProductDesign from "./Pages/ProductDesign";
+import ProductDevelopment from './pages/ProductDevelopment'; 
+import SocialMediaPage from './pages/SocialMediaPage'; 
+import BrandDesign from './pages/BrandDesign'
+import ProductDesign from "./pages/ProductDesign";
 
-import LandingPage from './Pages/LandingPage'
+import LandingPage from './pages/LandingPage'
 
 import './App.css';
-import Projectpage from "./Components/ProjectPage";
-import ProductDesignsPage from "./Pages/ProductDesignsPage";
-import AboutUsPage from "./Pages/AboutUsPage";
+import Projectpage from "./components/ProjectPage";
+import ProductDesignsPage from "./pages/ProductDesignsPage";
+import AboutUsPage from "./pages/AboutUsPage";
 
 function App() {
   return (

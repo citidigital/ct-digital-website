@@ -3,8 +3,8 @@ import { Link, useParams } from "react-router-dom";
 
 import DesignHero from '../assets/Images/design_hero.jpeg'
 
-import Footer from "../Components/Footer";
-import Header from "../Components/Header";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 import ProjectGallery from "./ProjectGallery";
 import UIDesignPage from "./UIDesignPage";
 

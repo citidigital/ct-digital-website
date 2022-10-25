@@ -6,9 +6,9 @@ import Interaction_Design from '../assets/imagesPD/InteractionDesign.jpg';
 import Product_Research from '../assets/imagesPD/ProductResearch.jpg';
 import UiUx_Design from '../assets/imagesPD/UiUxDesign.jpg';
 
-import Footer from "../Components/Footer";
-import Header from "../Components/Header";
-import PageSection from "../Components/PageSection";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import PageSection from "../components/PageSection";
 import { Link } from "react-router-dom";
 
 const firstImageSection = {

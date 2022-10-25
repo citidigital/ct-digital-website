@@ -5,9 +5,9 @@ import Brand_Design from '../assets/imagesBD/Brand_Design.jpg';
 import Brand_Guidelines from '../assets/imagesBD/Brand_Guidelines.jpg';
 import Video_Editing_Multimedia from '../assets/imagesBD/Video_Editing_Multimedia.jpg';
 
-import Footer from "../Components/Footer";
-import Header from "../Components/Header";
-import PageSection from "../Components/PageSection";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import PageSection from "../components/PageSection";
 import { Link } from "react-router-dom";
 
 const firstImageSection = {

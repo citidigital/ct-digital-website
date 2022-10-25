@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import EllipseGroup from '../assets/imagesLanding/EllipseGroup.svg';
 import DoubleEllipseGroup from '../assets/DoubleEllipseGroup.svg';
 import {ReactComponent as SmallPolygon1} from '../assets/SmallPolygon1.svg';
@@ -10,7 +10,7 @@ import Polygon1 from '../assets/Polygon1.svg';
 import Polygon2 from '../assets/Polygon2.svg';
 import {ReactComponent as WebProgramming} from '../assets/web-programming.svg';
 
-import HeroVideo from '../assets/Images/hero_video.jpeg';
+import HeroVideo from '../assets/Images/hero_video.png';
 import InnovativeProductGroup from '../assets/Images/innovative_product_group.png';
 import DesignReview from '../assets/Images/design_review.png';
 import IconPalet from '../assets/Images/icon_palet.png';
