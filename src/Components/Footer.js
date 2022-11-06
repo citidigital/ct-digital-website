@@ -13,7 +13,7 @@ const Footer = () => {
     return (
         <footer className="footer relative z-10 bg-cyan-blue">
             <div className="max-w-layout mx-auto">
-                <div class="md:w-9/10 lg:w-8/10 md:mx-auto mx-4">
+                <div className="md:w-9/10 lg:w-8/10 md:mx-auto mx-4">
                     <div className="pt-20 pb-10 text-gray-800 md:flex justify-between md:space-x-12">
                         <div className="md:w-2/10 md:mb-0 mb-10">
                             <Logo />
@@ -42,13 +42,13 @@ const Footer = () => {
                             <p className="text-xl text-dark-cyan font-extrabold mb-8">Office </p>
                             <div className=" h-14">
                                 <div className="flex items-center border-b border-b-dark-gray w-fit pb-2.5 mt-2">
-                                    <p className="text-default-gray text-sm"> {applyWhiteSpace('1200 S. Figueroa St.\nLos Angeles, CA 90015\nUnited States')}</p>
+                                    <div className="text-default-gray text-sm"> {applyWhiteSpace('1200 S. Figueroa St.\nLos Angeles, CA 90015\nUnited States')}</div>
                                 </div>
                             </div>
                             <div className="pt-5">
-                                <p className="block text-default-gray mt-5 text-sm">{applyWhiteSpace('Sinari Daranijo St.\nVictoria Island, Lagos 106104 Nigeria')}</p>
+                                <div className="block text-default-gray mt-5 text-sm">{applyWhiteSpace('Sinari Daranijo St.\nVictoria Island, Lagos 106104 Nigeria')}</div>
 
-                                <p className="text-default-gray mt-7 text-sm">{applyWhiteSpace('Hours: Mon. - Fri.\n8am - 5pm PST/WAT')}</p>
+                                <div className="text-default-gray mt-7 text-sm">{applyWhiteSpace('Hours: Mon. - Fri.\n8am - 5pm PST/WAT')}</div>
                             </div>
                         </div>
                         <div className="md:w-2/10 md:mb-0 mb-10">
@@ -88,7 +88,6 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
         </footer>
     );

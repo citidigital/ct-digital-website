@@ -40,7 +40,7 @@ const ProductDesign = () => {
             <Header />
 
             <div>
-                <img src={RectanglePDe} alt="Product Design" Class="w-full"/>
+                <img src={RectanglePDe} alt="Product Design" className="w-full"/>
             </div>
 
             <section className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5 projects relative pt-16 md:pb-16 pb-0">
@@ -50,7 +50,7 @@ const ProductDesign = () => {
                     </p>
                     <p className='text-default-gray text-base md:text-lg leading-7 mb-10 text-center mt-6 md:px-16 lg:px-52'>A successful product is a blend of company objectives and user requirements. We accomplish this by combining the two while continuously improving the user experience to assist brands in developing long-term products.</p>
                     <div className="md:mb-0 mb-14 text-center flex justify-center">
-                        <Link to={'/designs/1'} class="rounded-md bg-newport-blue text-white px-5 py-4 leading-5 w-48">View Projects</Link>
+                        <Link to={'/designs/1'} className="rounded-md bg-newport-blue text-white px-5 py-4 leading-5 w-48">View Projects</Link>
                     </div>
                 </div>
             </section>

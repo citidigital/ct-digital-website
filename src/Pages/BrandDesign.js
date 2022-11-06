@@ -43,7 +43,7 @@ const BrandDesign = () => {
                     </p>
                     <p className='text-default-gray text-base md:text-lg leading-7 mb-10 text-center mt-6 md:px-10 lg:px-24'>Building a brand identity requires designs and, that is where our creativity comes to play in developing what makes you instantly recognizable by your customers. To attain great layouts, we first set up the design structure and create your business assets. Typography, colour, and form or shape are the essential elements of consideration for our design process (method). Your business value comes from the application of these concepts.</p>
                     <div className="md:mb-0 mb-14 text-center flex justify-center">
-                        <Link to={'/designs/2'} class="rounded-md bg-newport-blue text-white px-5 py-4 leading-5 w-48">View Projects</Link>
+                        <Link to={'/designs/2'} className="rounded-md bg-newport-blue text-white px-5 py-4 leading-5 w-48">View Projects</Link>
                     </div>
                 </div>
             </section>
