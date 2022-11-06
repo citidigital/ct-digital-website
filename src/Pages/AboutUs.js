@@ -7,7 +7,7 @@ import Innovation from '../assets/Innovation.jpg';
 import Pushing from '../assets/Pushing.jpg';
 import DesigningFutures from '../assets/DesigningFutures.png'
 import { applyWhiteSpace } from "../utils/helper";
-import BookConsultationPopup from "../Components/BookConsulationPopup";
+import BookConsultationPopup from "../components/BookConsulationPopup";
 
 const AboutUs = () => {
     return (

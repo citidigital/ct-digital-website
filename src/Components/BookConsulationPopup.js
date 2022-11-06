@@ -69,7 +69,7 @@ const BookConsultationPopup = () => {
 
     return(
         <Popup trigger={
-                <button class="rounded-md bg-newport-blue text-white px-5 py-4 w-button-width leading-5">Book a Consultation</button>
+                <button className="rounded-md bg-newport-blue text-white px-5 py-4 w-button-width leading-5">Book a Consultation</button>
             }
             modal
             contentStyle={customModalStyles.bookConsulationPopupStyles}>

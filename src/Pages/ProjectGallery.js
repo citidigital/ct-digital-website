@@ -13,66 +13,66 @@ import Image10 from '../assets/Images/DesignGallery/image10.png';
 
 const ProjectGallery = () => {
     return(
-        <section class="overflow-hidden text-gray-700 md:mt-0 mt-10">
-            <div class="container px-5 py-2 mx-auto lg:pt-15 lg:px-32">
-                <div class="flex flex-wrap -m-1 md:-m-2">
-                    <div class="flex flex-wrap w-1/3">
-                        <div class="w-full p-2 md:p-6">
-                        <img alt="gallery" class="block object-cover object-center w-full h-full rounded-md"
+        <section className="overflow-hidden text-gray-700 md:mt-0 mt-10">
+            <div className="container px-5 py-2 mx-auto lg:pt-15 lg:px-32">
+                <div className="flex flex-wrap -m-1 md:-m-2">
+                    <div className="flex flex-wrap w-1/3">
+                        <div className="w-full p-2 md:p-6">
+                        <img alt="gallery" className="block object-cover object-center w-full h-full rounded-md"
                             src={Image1}/>
                         </div>
                     </div>
-                    <div class="flex flex-wrap w-1/3">
-                        <div class="w-full p-2 md:p-6">
-                        <img alt="gallery" class="block object-cover object-center w-full h-full rounded-md"
+                    <div className="flex flex-wrap w-1/3">
+                        <div className="w-full p-2 md:p-6">
+                        <img alt="gallery" className="block object-cover object-center w-full h-full rounded-md"
                             src={Image2}/>
                         </div>
                     </div>
-                    <div class="flex flex-wrap w-1/3">
-                        <div class="w-full p-2 md:p-6">
-                        <img alt="gallery" class="block object-cover object-center w-full h-full rounded-md"
+                    <div className="flex flex-wrap w-1/3">
+                        <div className="w-full p-2 md:p-6">
+                        <img alt="gallery" className="block object-cover object-center w-full h-full rounded-md"
                             src={Image3}/>
                         </div>
                     </div>
-                    <div class="flex flex-wrap w-1/3">
-                        <div class="w-full p-2 md:p-6">
-                        <img alt="gallery" class="block object-cover object-center w-full h-full rounded-md"
+                    <div className="flex flex-wrap w-1/3">
+                        <div className="w-full p-2 md:p-6">
+                        <img alt="gallery" className="block object-cover object-center w-full h-full rounded-md"
                             src={Image4}/>
                         </div>
                     </div>
-                    <div class="flex flex-wrap w-2/3">
-                        <div class="w-full p-2 md:p-6">
-                        <img alt="gallery" class="block object-cover object-center w-full h-full rounded-md"
+                    <div className="flex flex-wrap w-2/3">
+                        <div className="w-full p-2 md:p-6">
+                        <img alt="gallery" className="block object-cover object-center w-full h-full rounded-md"
                             src={Image5}/>
                         </div>
                     </div>
-                    <div class="flex flex-wrap w-1/3">
-                        <div class="w-full p-2 md:p-6">
-                        <img alt="gallery" class="block object-cover object-center w-full h-full rounded-md"
+                    <div className="flex flex-wrap w-1/3">
+                        <div className="w-full p-2 md:p-6">
+                        <img alt="gallery" className="block object-cover object-center w-full h-full rounded-md"
                             src={Image6}/>
                         </div>
                     </div>
-                    <div class="flex flex-wrap w-1/3">
-                        <div class="w-full p-2 md:p-6">
-                        <img alt="gallery" class="block object-cover object-center w-full h-full rounded-md"
+                    <div className="flex flex-wrap w-1/3">
+                        <div className="w-full p-2 md:p-6">
+                        <img alt="gallery" className="block object-cover object-center w-full h-full rounded-md"
                             src={Image7}/>
                         </div>
                     </div>
-                    <div class="flex flex-wrap w-1/3">
-                        <div class="w-full p-2 md:p-6">
-                        <img alt="gallery" class="block object-cover object-center w-full h-full rounded-md"
+                    <div className="flex flex-wrap w-1/3">
+                        <div className="w-full p-2 md:p-6">
+                        <img alt="gallery" className="block object-cover object-center w-full h-full rounded-md"
                             src={Image8}/>
                         </div>
                     </div>
-                    <div class="flex flex-wrap w-2/3">
-                        <div class="w-full p-2 md:p-6">
-                        <img alt="gallery" class="block object-cover object-center w-full h-full rounded-md"
+                    <div className="flex flex-wrap w-2/3">
+                        <div className="w-full p-2 md:p-6">
+                        <img alt="gallery" className="block object-cover object-center w-full h-full rounded-md"
                             src={Image9}/>
                         </div>
                     </div>
-                    <div class="flex flex-wrap w-1/3">
-                        <div class="w-full p-2 md:p-6">
-                        <img alt="gallery" class="block object-cover object-center w-full h-full rounded-md"
+                    <div className="flex flex-wrap w-1/3">
+                        <div className="w-full p-2 md:p-6">
+                        <img alt="gallery" className="block object-cover object-center w-full h-full rounded-md"
                             src={Image10}/>
                         </div>
                     </div>

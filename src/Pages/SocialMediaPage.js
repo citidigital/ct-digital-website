@@ -5,9 +5,9 @@ import SEOmanagement from '../assets/imagesSM/SEOmanagement.jpg';
 import SocialMediaManagement from '../assets/imagesSM/SocialMediaManagement.jpg';
 import ContentWriting from '../assets/imagesSM/ContentWriting.jpg';
 
-import Footer from "../Components/Footer";
-import Header from "../Components/Header";
-import PageSection from "../Components/PageSection";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import PageSection from "../components/PageSection";
 
 const firstImageSection = {
     header: 'SEO Management',

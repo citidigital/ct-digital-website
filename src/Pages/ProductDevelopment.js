@@ -5,9 +5,9 @@ import WebDevelopment from '../assets/imagesPM/WebDevelopment.jpg'
 import AppDevelopment from '../assets/imagesPM/AppDevelopment.jpg'
 import WebManagement from '../assets/imagesPM/WebManagement.jpg'
 
-import Footer from "../Components/Footer";
-import Header from "../Components/Header";
-import PageSection from "../Components/PageSection";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import PageSection from "../components/PageSection";
 
 const firstImageSection = {
     header: 'Web Development',

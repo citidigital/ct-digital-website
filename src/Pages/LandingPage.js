@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import EllipseGroup from '../assets/imagesLanding/EllipseGroup.svg';
 import DoubleEllipseGroup from '../assets/DoubleEllipseGroup.svg';
 import {ReactComponent as SmallPolygon1} from '../assets/SmallPolygon1.svg';
@@ -10,7 +10,7 @@ import Polygon1 from '../assets/Polygon1.svg';
 import Polygon2 from '../assets/Polygon2.svg';
 import {ReactComponent as WebProgramming} from '../assets/web-programming.svg';
 
-import HeroVideo from '../assets/Images/hero_video.jpeg';
+import HeroVideo from '../assets/Images/hero_video.png';
 import InnovativeProductGroup from '../assets/Images/innovative_product_group.png';
 import DesignReview from '../assets/Images/design_review.png';
 import IconPalet from '../assets/Images/icon_palet.png';
@@ -72,6 +72,7 @@ const LandingPage = () => {
     return(
         <div className="landing-page">
             <Header />
+            
             <section className="hero md:py-4 min-h-hero md:flex items-center py-6">
                 <div className="max-w-layout md:w-full mx-auto md:pl-2 pl-4.5 pr-5">
                     <div className="md:flex items-center justify-between md:space-x-6 text-center w-full mb-6 md:w-9/10 lg:w-8/10 mx-auto">

@@ -49,8 +49,8 @@ const UIDesignPage = () => {
     ]
 
     return (
-        <section class="overflow-hidden text-gray-700">
-            <div class="container px-5 py-2 mx-auto lg:pt-15 lg:px-32 md:mt-0 mt-10">
+        <section className="overflow-hidden text-gray-700">
+            <div className="container px-5 py-2 mx-auto lg:pt-15 lg:px-32 md:mt-0 mt-10">
                 {projects.map((project, index) => (<ProjectRow project={project} index={index}/>))}
             </div>
         </section>
